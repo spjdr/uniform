@@ -1,6 +1,6 @@
 Uniform
 ===============
 
-A distinctive spjdrpedia skin for MediaWiki.
+A distinctive MediaWiki skin for SPJDRpedia.
 
 
