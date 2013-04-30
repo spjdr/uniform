@@ -1,4 +1,6 @@
-spjdrpedia-skin
+Uniform
 ===============
 
-Distinctive skin for MediaWiki
+A distinctive spjdrpedia skin for MediaWiki.
+
+
