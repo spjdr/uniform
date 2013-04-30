@@ -14,7 +14,7 @@
 /* Framework */
 html,
 body {
-  height: 100%;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
@@ -106,17 +106,17 @@ div#mw-head h5 {
 		margin-top: 2.5em;
 	}
 	/* Navigation Labels */
-	div.vectorTabs h5,
-	div.vectorMenu h5 span {
+	div.uniformTabs h5,
+	div.uniformMenu h5 span {
 		display: none;
 	}
 	/* Namespaces and Views */
 	/* @noflip */
-	div.vectorTabs {
+	div.uniformTabs {
 		float: left;
 		height: 2.5em;
 	}
-	div.vectorTabs {
+	div.uniformTabs {
 		/* @embed */
 		background-image: url(images/tab-break.png);
 		background-position: bottom left;
@@ -124,21 +124,21 @@ div#mw-head h5 {
 		padding-left: 1px;
 	}
 	/* @noflip */
-	div.vectorTabs ul {
+	div.uniformTabs ul {
 		float: left;
 	}
-	div.vectorTabs ul {
+	div.uniformTabs ul {
 		height: 100%;
 		list-style: none;
 		margin: 0;
 		padding: 0;
 	}
 	/* @noflip */
-	div.vectorTabs ul li {
+	div.uniformTabs ul li {
 		float: left;
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
-	div.vectorTabs ul li {
+	div.uniformTabs ul li {
 		line-height: 1.125em;
 		display: inline-block;
 		height: 100%;
@@ -152,15 +152,15 @@ div#mw-head h5 {
 		white-space:nowrap;
 	}
 	/* IGNORED BY IE6 */
-	div.vectorTabs ul > li {
+	div.uniformTabs ul > li {
 		display: block;
 	}
-	div.vectorTabs li.selected {
+	div.uniformTabs li.selected {
 		/* @embed */
 		background-image: url(images/tab-current-fade.png);
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
-	div.vectorTabs li a {
+	div.uniformTabs li a {
 		display: inline-block;
 		height: 1.9em;
 		padding-left: 0.5em;
@@ -170,43 +170,43 @@ div#mw-head h5 {
 		font-size: 0.8em;
 	}
 	/* IGNORED BY IE6 */
-	div.vectorTabs li > a {
+	div.uniformTabs li > a {
 		display: block;
 	}
-	div.vectorTabs li.icon a {
+	div.uniformTabs li.icon a {
 		background-position: bottom right;
 		background-repeat: no-repeat;
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
-	div.vectorTabs span a  {
+	div.uniformTabs span a  {
 		display: inline-block;
 		padding-top: 1.25em;
 	}
 	/* IGNORED BY IE6 */
 	/* @noflip */
-	div.vectorTabs span > a {
+	div.uniformTabs span > a {
 		float: left;
 		display: block;
 	}
-	div.vectorTabs span {
+	div.uniformTabs span {
 		display: inline-block;
 		/* @embed */
 		background-image: url(images/tab-break.png);
 		background-position: bottom right;
 		background-repeat: no-repeat;
 	}
-	div.vectorTabs li.selected a,
-	div.vectorTabs li.selected a:visited{
+	div.uniformTabs li.selected a,
+	div.uniformTabs li.selected a:visited{
 		color: #333333;
 		text-decoration: none;
 	}
-	div.vectorTabs li.new a,
-	div.vectorTabs li.new a:visited{
+	div.uniformTabs li.new a,
+	div.uniformTabs li.new a:visited{
 		color: #a55858;
 	}
 	/* Variants and Actions */
 	/* @noflip */
-	div.vectorMenu {
+	div.uniformMenu {
 		direction: ltr;
 		float: left;
 		/* @embed */
@@ -215,33 +215,33 @@ div#mw-head h5 {
 		background-repeat: no-repeat;
 		cursor: pointer;
 	}
-	div.vectorMenuFocus {
+	div.uniformMenuFocus {
 		/* @embed */
 		background-image: url(images/arrow-down-focus-icon.png);
 		background-position: 100% 60%;
 	}
 	/* @noflip */
-	body.rtl div.vectorMenu {
+	body.rtl div.uniformMenu {
 		direction: rtl;
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
 	/* @noflip */
-	div#mw-head div.vectorMenu h5 {
+	div#mw-head div.uniformMenu h5 {
 		float: left;
 		/* @embed */
 		background-image: url(images/tab-break.png);
 		background-repeat: no-repeat;
 	}
 	/* This will be flipped - unlike the one above it */
-	div#mw-head div.vectorMenu h5 {
+	div#mw-head div.uniformMenu h5 {
 		background-position: bottom left;
 		margin-left: -1px;
 	}
 	/* IGNORED BY IE6 */
-	div#mw-head div.vectorMenu > h5 {
+	div#mw-head div.uniformMenu > h5 {
 		background-image: none;
 	}
-	div#mw-head div.vectorMenu h4 {
+	div#mw-head div.uniformMenu h4 {
 		display: inline-block;
 		float: left;
 		font-size: 0.8em;
@@ -252,7 +252,7 @@ div#mw-head h5 {
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
 	/* @noflip */
-	div.vectorMenu h5 a {
+	div.uniformMenu h5 a {
 		display: inline-block;
 		width: 24px;
 		height: 2.5em;
@@ -262,14 +262,14 @@ div#mw-head h5 {
 		background-repeat: no-repeat;
 	}
 	/* This will be flipped - unlike the one above it */
-	div.vectorMenu h5 a {
+	div.uniformMenu h5 a {
 		background-position: bottom right;
 	}
 	/* IGNORED BY IE6 */
-	div.vectorMenu h5 > a {
+	div.uniformMenu h5 > a {
 		display: block;
 	}
-	div.vectorMenu div.menu {
+	div.uniformMenu div.menu {
 		position: relative;
 		display: none;
 		clear: both;
@@ -277,27 +277,27 @@ div#mw-head h5 {
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
 	/* @noflip */
-	body.rtl div.vectorMenu div.menu {
+	body.rtl div.uniformMenu div.menu {
 		margin-left: 24px;
 	}
 	/* IGNORED BY IE6 */
 	/* @noflip */
-	body.rtl div.vectorMenu > div.menu {
+	body.rtl div.uniformMenu > div.menu {
 		margin-left: auto;
 	}
 	/* IGNORED BY IE6 */
 	/* Also fixes old versions of FireFox */
 	/* @noflip */
-	body.rtl div.vectorMenu > div.menu,
+	body.rtl div.uniformMenu > div.menu,
 	x:-moz-any-link {
 		margin-left: 23px;
 	}
 	/* Enable forcing showing of the menu for accessibility */
-	div.vectorMenu:hover div.menu,
-	div.vectorMenu div.menuForceShow {
+	div.uniformMenu:hover div.menu,
+	div.uniformMenu div.menuForceShow {
 		display: block;
 	}
-	div.vectorMenu ul {
+	div.uniformMenu ul {
 		position: absolute;
 		background-color: white;
 		border: solid 1px silver;
@@ -311,24 +311,24 @@ div#mw-head h5 {
 		text-align: left;
 	}
 	/* Fixes old versions of FireFox */
-	div.vectorMenu ul,
+	div.uniformMenu ul,
 	x:-moz-any-link {
 		min-width: 5em;
 	}
 	/* Returns things back to normal in modern versions of FireFox */
-	div.vectorMenu ul,
+	div.uniformMenu ul,
 	x:-moz-any-link,
 	x:default {
 		min-width: 0;
 	}
-	div.vectorMenu li {
+	div.uniformMenu li {
 		padding: 0;
 		margin: 0;
 		text-align: left;
 		line-height: 1em;
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
-	div.vectorMenu li a {
+	div.uniformMenu li a {
 		display: inline-block;
 		padding: 0.5em;
 		white-space: nowrap;
@@ -337,11 +337,11 @@ div#mw-head h5 {
 		font-size: 0.8em;
 	}
 	/* IGNORED BY IE6 */
-	div.vectorMenu li > a {
+	div.uniformMenu li > a {
 		display: block;
 	}
-	div.vectorMenu li.selected a,
-	div.vectorMenu li.selected a:visited {
+	div.uniformMenu li.selected a,
+	div.uniformMenu li.selected a:visited {
 		color: #333333;
 		text-decoration: none;
 	}
@@ -836,7 +836,7 @@ div#bodyContent {
 #ca-watch.icon a span {
 	display: none;
 }
-div.vectorTabs ul {
+div.uniformTabs ul {
 	/* @embed */
 	background-image:url(images/tab-break.png);
 	background-position:right bottom;
