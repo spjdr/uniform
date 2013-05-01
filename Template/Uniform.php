@@ -41,7 +41,7 @@ class SkinUniform extends SkinTemplate {
 				"/{$this->stylename}/csshover{$min}.htc\")}</style><![endif]-->"
 		);
 
-		$out->addModuleScripts( 'skins.uniform' );
+		#$out->addModuleScripts( 'skins.uniform' );
 	}
 
 	/**
@@ -51,7 +51,7 @@ class SkinUniform extends SkinTemplate {
 	 */
 	function setupSkinUserCss( OutputPage $out ){
 		parent::setupSkinUserCss( $out );
-		$out->addModuleStyles( 'skins.uniform' );
+		#$out->addModuleStyles( 'skins.uniform' );
 	}
 }
 
