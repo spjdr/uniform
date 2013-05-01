@@ -24,8 +24,9 @@ $wgExtensionMessagesFiles['Uniform'] = dirname(__FILE__).'/Uniform.i18n.php';
  
 $wgResourceModules['skins.uniform'] = array(
         'styles' => array(
-                'uniform/css/screen.css' => array( 'media' => 'screen' ),
+                'uniform/stylesheets/screen.css' => array( 'media' => 'screen' ),
         ),
+        'scripts' => 'uniform/scripts/uniform.js',
         'remoteBasePath' => &$GLOBALS['wgStylePath'],
         'localBasePath' => &$GLOBALS['wgStyleDirectory'],
 );
