@@ -4,8 +4,8 @@ Uniform
 A distinctive MediaWiki skin for SPJDRpedia based on the MediaWiki Vector skin.
 
 
-Til Udviklere
-===============
+## Til Udviklere
+
 
 ### Stylesheets og JavaScripts
 
