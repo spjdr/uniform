@@ -11,6 +11,9 @@
  * "IGNORED BY IE6" comments.
  */
 
+/* Custom font via Fontface */
+
+
 /* Framework */
 html,
 body {
@@ -21,39 +24,34 @@ body {
 	font-size: 1em;
 }
 body {
-	background-color: #f3f3f3;
+	background-color: #e7e7e7;
 	/* @embed */
-	background-image: url(../images/page-base.png);
+	background-image: none; /* Baggrund til identitet */
 }
 /* Content */
 div#content {
-	margin-left: 10em;
+	margin-left: 14em;
 	padding: 1em;
 	/* @embed */
-	background-image: url(../images/border.png);
-	background-position: top left;
-	background-repeat: repeat-y;
-	background-color: white;
+	background: white;
 	color: black;
 	direction: ltr;
 }
 /* Head */
 #mw-page-base {
-	height: 5em;
-	background-color: white;
+	height: 2.5em;
+	background: e7e7e7;
 	/* @embed */
-	background-image: url(../images/page-fade.png);
-	background-position: bottom left;
-	background-repeat: repeat-x;
+	background-image: none;
 }
 #mw-head-base {
-	margin-top: -5em;
-	margin-left: 10em;
-	height: 5em;
+	margin-top: -2.5em;
+	margin-left: 14em;
+	height: 2.5em;
+	background: #fff;
 	/* @embed */
-	background-image: url(../images/border.png);
-	background-position: bottom left;
-	background-repeat: repeat-x;
+	background-image: none;
+
 }
 div#mw-head {
 	position: absolute;
@@ -64,6 +62,7 @@ div#mw-head {
 div#mw-head h5 {
 	margin: 0;
 	padding: 0;
+	text-align:right;
 }
 	/* Hide empty portlets */
 	div.emptyPortlet {
@@ -74,20 +73,24 @@ div#mw-head h5 {
 		position: absolute;
 		top: 0;
 		right: 0.75em;
+		text-transform:none;
+		list-style: none;
+		display: none; /* Skjules indtil nedenstående opgaver er løst. */
 	}
 	#p-personal h5 {
-		display: none;
+		display: none; /* opgave: Skjuler afsnits-overskriften 'Personlige værktøjer'. Skal gøres til li og benyttes som hoved for dropdown */
 	}
 	#p-personal ul {
 		list-style: none;
 		margin: 0;
-		padding-left: 10em; /* Keep from overlapping logo */
+		padding-left: 14em; /* Keep from overlapping logo */
 	}
 	/* @noflip */
 	#p-personal li {
 		line-height: 1.125em;
 		float: left;
 	}
+
 	/* This one flips! */
 	#p-personal li {
 		margin-left: 0.75em;
@@ -98,12 +101,12 @@ div#mw-head h5 {
 	/* Navigation Containers */
 	#left-navigation {
 		position: absolute;
-		left: 10em;
+		left: 14em;
 		top: 2.5em;
 	}
 	#right-navigation {
-		float: right;
-		margin-top: 2.5em;
+		position:absolute;
+		margin:0 0 0 25em;
 	}
 	/* Navigation Labels */
 	div.uniformTabs h5,
@@ -118,9 +121,7 @@ div#mw-head h5 {
 	}
 	div.uniformTabs {
 		/* @embed */
-		background-image: url(../images/tab-break.png);
-		background-position: bottom left;
-		background-repeat: no-repeat;
+		background-image: none;
 		padding-left: 1px;
 	}
 	/* @noflip */
@@ -139,17 +140,13 @@ div#mw-head h5 {
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
 	div.uniformTabs ul li {
-		line-height: 1.125em;
+		line-height: 1.25em;
 		display: inline-block;
 		height: 100%;
 		margin: 0;
 		padding: 0;
-		background-color: #f3f3f3;
 		/* @embed */
-		background-image: url(../images/tab-normal-fade.png);
-		background-position: bottom left;
-		background-repeat: repeat-x;
-		white-space:nowrap;
+		background-image: none;
 	}
 	/* IGNORED BY IE6 */
 	div.uniformTabs ul > li {
@@ -157,15 +154,14 @@ div#mw-head h5 {
 	}
 	div.uniformTabs li.selected {
 		/* @embed */
-		background-image: url(../images/tab-current-fade.png);
+		background-image: none;
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
 	div.uniformTabs li a {
 		display: inline-block;
-		height: 1.9em;
-		padding-left: 0.5em;
-		padding-right: 0.5em;
-		color: #0645ad;
+		height: 2.5em;
+		padding: 1.25em 1em 0em;
+		color: #0645ad; /* Farve: Links til sider der eksisterer */
 		cursor: pointer;
 		font-size: 0.8em;
 	}
@@ -180,7 +176,6 @@ div#mw-head h5 {
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
 	div.uniformTabs span a  {
 		display: inline-block;
-		padding-top: 1.25em;
 	}
 	/* IGNORED BY IE6 */
 	/* @noflip */
@@ -191,18 +186,16 @@ div#mw-head h5 {
 	div.uniformTabs span {
 		display: inline-block;
 		/* @embed */
-		background-image: url(../images/tab-break.png);
-		background-position: bottom right;
-		background-repeat: no-repeat;
+		background-image: none;
 	}
 	div.uniformTabs li.selected a,
 	div.uniformTabs li.selected a:visited{
-		color: #333333;
+		color: #333333; /* Farve: Selv-refererende links */
 		text-decoration: none;
 	}
 	div.uniformTabs li.new a,
 	div.uniformTabs li.new a:visited{
-		color: #a55858;
+		color: #a55858; /* Farve: Links til ikke-oprettede sider */
 	}
 	/* Variants and Actions */
 	/* @noflip */
@@ -210,14 +203,14 @@ div#mw-head h5 {
 		direction: ltr;
 		float: left;
 		/* @embed */
-		background-image: url(../images/arrow-down-icon.png);
+		background-image: url(../images/arrow-down-icon.png); /* Ikon: Dropdown */
 		background-position: 100% 60%;
 		background-repeat: no-repeat;
 		cursor: pointer;
 	}
 	div.uniformMenuFocus {
 		/* @embed */
-		background-image: url(../images/arrow-down-focus-icon.png);
+		background-image: url(../images/arrow-down-focus-icon.png); /* Ikon: Dropdown-fokus */
 		background-position: 100% 60%;
 	}
 	/* @noflip */
@@ -229,8 +222,7 @@ div#mw-head h5 {
 	div#mw-head div.uniformMenu h5 {
 		float: left;
 		/* @embed */
-		background-image: url(../images/tab-break.png);
-		background-repeat: no-repeat;
+		background-image: none;
 	}
 	/* This will be flipped - unlike the one above it */
 	div#mw-head div.uniformMenu h5 {
@@ -258,8 +250,7 @@ div#mw-head h5 {
 		height: 2.5em;
 		text-decoration: none;
 		/* @embed */
-		background-image: url(../images/tab-break.png);
-		background-repeat: no-repeat;
+		background-image: none;
 	}
 	/* This will be flipped - unlike the one above it */
 	div.uniformMenu h5 a {
@@ -352,6 +343,7 @@ div#mw-head h5 {
 	/* @noflip */
 	#p-search {
 		float: left;
+		display:none; /* Opgave: Skjult midlertidigt. Flyt til sidebar. */
 	}
 	#p-search {
 		margin-right: 0.5em;
@@ -449,32 +441,28 @@ div#mw-head h5 {
 div#mw-panel {
 	position: absolute;
 	top: 160px;
-	padding-top: 1em;
-	width: 10em;
+	margin: 1.5em;
+	width: 11em;
 	left: 0;
+	background:#fff;
 }
 	div#mw-panel div.portal {
-		padding-bottom: 1.5em;
+		padding: 1em;
 		direction: ltr;
 	}
 	div#mw-panel div.portal h5 {
 		font-weight: normal;
 		color: #444444;
-		padding: 0.25em;
-		padding-top: 0;
-		padding-left: 1.75em;
+		padding: 0 0 0 0em;
 		cursor: default;
 		border: none;
 		font-size: 0.75em;
 	}
 	div#mw-panel div.portal div.body {
 		margin: 0;
-		padding-top: 0.5em;
-		margin-left: 1.25em;
+		padding: 0.5em 0 0 0;
 		/* @embed */
-		background-image: url(../images/portal-break.png);
-		background-repeat: no-repeat;
-		background-position: top left;
+		background-image: none;
 	}
 	div#mw-panel div.portal div.body ul {
 		list-style: none;
@@ -499,7 +487,7 @@ div#mw-panel {
 	}
 /* Footer */
 div#footer {
-	margin-left: 10em;
+	margin-left: 14em;
 	margin-top: 0;
 	padding: 0.75em;
 	/* @embed */
@@ -547,15 +535,15 @@ div#footer #footer-places li {
 /* Logo */
 #p-logo {
 	position: absolute;
-	top: -160px;
+	top: -180px;
 	left: 0;
-	width: 10em;
+	width: 11em;
 	height: 160px;
 }
 #p-logo a {
 	display: block;
-	width: 10em;
-	height: 160px;
+	width: 11em;
+	height:160px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-decoration: none;
