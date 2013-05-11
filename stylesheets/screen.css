@@ -127,7 +127,6 @@ div#mw-head h5 {
 	/* @noflip */
 	div.uniformTabs ul {
 		float: left;
-		background: none;
 	}
 	div.uniformTabs ul {
 		height: 100%;
@@ -823,9 +822,7 @@ div#bodyContent {
 }
 div.uniformTabs ul {
 	/* @embed */
-	background-image:url(../images/tab-break.png);
-	background-position:right bottom;
-	background-repeat:no-repeat;
+	background-image: none;
 }
 
 /* Tooltips are outside of the normal body code, so this helps make the size of the text sensible */
