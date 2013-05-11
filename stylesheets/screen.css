@@ -102,7 +102,7 @@ div#mw-head h5 {
 	#left-navigation {
 		position: absolute;
 		left: 14em;
-		top: 2.5em;
+		top: 0em;
 	}
 	#right-navigation {
 		position:absolute;
@@ -127,6 +127,7 @@ div#mw-head h5 {
 	/* @noflip */
 	div.uniformTabs ul {
 		float: left;
+		background: none;
 	}
 	div.uniformTabs ul {
 		height: 100%;
@@ -365,9 +366,7 @@ div#mw-head h5 {
 		color: black;
 		background-color: white;
 		/* @embed */
-		background-image: url(../images/search-fade.png);
-		background-position: top left;
-		background-repeat: repeat-x;
+		background-image: none;
 	}
 	div#simpleSearch label {
 		/*
@@ -491,9 +490,7 @@ div#footer {
 	margin-top: 0;
 	padding: 0.75em;
 	/* @embed */
-	background-image: url(../images/border.png);
-	background-position: top left;
-	background-repeat: repeat-x;
+	background-image: none;
 	direction: ltr;
 }
 div#footer ul {
