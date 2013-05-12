@@ -49,6 +49,7 @@ div#content {
 	margin-left: 14em;
 	height: 2.5em;
 	background: #fff;
+	border-bottom: #e1e1e1;
 	/* @embed */
 	background-image: none;
 
