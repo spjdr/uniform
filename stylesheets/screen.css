@@ -12,7 +12,49 @@
  */
 
 /* Custom font via Fontface */
+@font-face {
+    font-family: 'BitterRegular';
+    src: url('/assets/Bitter-Regular-webfont.eot');
+    src: url('/assets/Bitter-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/Bitter-Regular-webfont.woff') format('woff'),
+         url('/assets/Bitter-Regular-webfont.ttf') format('truetype'),
+         url('/assets/Bitter-Regular-webfont.svg#BitterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+/* @font-face {
+    font-family: 'BitterItalic';
+    src: url('/assets/Bitter-Italic-webfont.eot');
+    src: url('/assets/Bitter-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/Bitter-Italic-webfont.woff') format('woff'),
+         url('/assets/Bitter-Italic-webfont.ttf') format('truetype'),
+         url('/assets/Bitter-Italic-webfont.svg#BitterItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'BitterBold';
+    src: url('/assets/Bitter-Bold-webfont.eot');
+    src: url('/assets/Bitter-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/Bitter-Bold-webfont.woff') format('woff'),
+         url('/assets/Bitter-Bold-webfont.ttf') format('truetype'),
+         url('/assets/Bitter-Bold-webfont.svg#BitterBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'IstokWebRegular';
+    src: url('/assets/IstokWeb-Regular-webfont.eot');
+    src: url('/assets/IstokWeb-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/IstokWeb-Regular-webfont.woff') format('woff'),
+         url('/assets/IstokWeb-Regular-webfont.ttf') format('truetype'),
+         url('/assets/IstokWeb-Regular-webfont.svg#IstokWebRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Framework */
 html,
@@ -20,7 +62,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family:Verdana,Istok Web,sans-serif;
 	font-size: 1em;
 }
 body {
@@ -28,6 +70,75 @@ body {
 	/* @embed */
 	background-image: none; /* Baggrund til identitet */
 }
+h1,h2,h3,h4,h5,h6 {
+ 	color:black;
+ 	background:none;
+ 	font-family:Times,Bitter,sans-serif;
+ 	font-weight:normal;
+ 	margin:0;
+ 	overflow:hidden;
+ 	padding-top:.5em;
+ 	padding-bottom:.17em;
+ 	border-bottom:1px solid #aaa;
+ 	width:auto
+}
+h1{
+	font-size:188%
+}
+h1 .editsection{
+	font-size:53%
+}
+h2{
+	font-size:150%
+}
+h2 .editsection{
+	font-size:67%
+}
+h3,h4,h5,h6{
+	border-bottom:none;
+	font-weight:bold
+}
+h3{
+	font-size:132%
+}
+h3 .editsection{
+	font-size:76%;
+	font-weight:normal
+}
+h4{
+	font-size:116%
+}
+h4 .editsection{
+	font-size:86%;
+	font-weight:normal
+}
+h5{
+	font-size:100%
+}
+h5 .editsection{
+	font-weight:normal
+}
+h6{
+	font-size:80%
+}
+h6 .editsection{
+	font-size:125%;
+	font-weight:normal
+}
+h1,h2{
+	margin-bottom:.6em
+}
+h3,h4,h5{
+	margin-bottom:.3em
+}
+p{
+	margin:.4em 0 .5em 0;
+	line-height:1.5em
+}
+p img{
+	margin:0
+}
+
 /* Content */
 div#content {
 	margin-left: 14em;
