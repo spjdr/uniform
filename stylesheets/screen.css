@@ -14,11 +14,11 @@
 /* Custom font via Fontface */
 @font-face {
     font-family: 'BitterRegular';
-    src: url('/assets/Bitter-Regular-webfont.eot');
-    src: url('/assets/Bitter-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/Bitter-Regular-webfont.woff') format('woff'),
-         url('/assets/Bitter-Regular-webfont.ttf') format('truetype'),
-         url('/assets/Bitter-Regular-webfont.svg#BitterRegular') format('svg');
+    src: url('../assets/Bitter-Regular-webfont.eot');
+    src: url('../assets/Bitter-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/Bitter-Regular-webfont.woff') format('woff'),
+         url('../assets/Bitter-Regular-webfont.ttf') format('truetype'),
+         url('../assets/Bitter-Regular-webfont.svg#BitterRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -47,11 +47,11 @@
 
 @font-face {
     font-family: 'IstokWebRegular';
-    src: url('/assets/IstokWeb-Regular-webfont.eot');
-    src: url('/assets/IstokWeb-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/IstokWeb-Regular-webfont.woff') format('woff'),
-         url('/assets/IstokWeb-Regular-webfont.ttf') format('truetype'),
-         url('/assets/IstokWeb-Regular-webfont.svg#IstokWebRegular') format('svg');
+    src: url('../assets/IstokWeb-Regular-webfont.eot');
+    src: url('../assets/IstokWeb-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/IstokWeb-Regular-webfont.woff') format('woff'),
+         url('../assets/IstokWeb-Regular-webfont.ttf') format('truetype'),
+         url('../assets/IstokWeb-Regular-webfont.svg#IstokWebRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
