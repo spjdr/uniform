@@ -14,11 +14,11 @@
 /* Custom font via Fontface */
 @font-face {
     font-family: 'BitterRegular';
-    src: url('./type/Bitter-Regular-webfont.eot');
-    src: url('./type/Bitter-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./type/Bitter-Regular-webfont.woff') format('woff'),
-         url('./type/Bitter-Regular-webfont.ttf') format('truetype'),
-         url('./type/Bitter-Regular-webfont.svg#BitterRegular') format('svg');
+    src: url('skins/uniform/type/Bitter-Regular-webfont.eot');
+    src: url('skins/uniform/type/Bitter-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('skins/uniform/type/Bitter-Regular-webfont.woff') format('woff'),
+         url('skins/uniform/Bitter-Regular-webfont.ttf') format('truetype'),
+         url('skins/uniform/Bitter-Regular-webfont.svg#BitterRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -47,11 +47,11 @@
 
 @font-face {
     font-family: 'IstokWebRegular';
-    src: url('./type/IstokWeb-Regular-webfont.eot');
-    src: url('./type/IstokWeb-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./type/IstokWeb-Regular-webfont.woff') format('woff'),
-         url('./type/IstokWeb-Regular-webfont.ttf') format('truetype'),
-         url('./type/IstokWeb-Regular-webfont.svg#IstokWebRegular') format('svg');
+    src: url('skins/uniform/IstokWeb-Regular-webfont.eot');
+    src: url('skins/uniform/IstokWeb-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('skins/uniform/IstokWeb-Regular-webfont.woff') format('woff'),
+         url('skins/uniform/IstokWeb-Regular-webfont.ttf') format('truetype'),
+         url('skins/uniform/IstokWeb-Regular-webfont.svg#IstokWebRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -320,14 +320,14 @@ div#mw-head h5 {
 		direction: ltr;
 		float: left;
 		/* @embed */
-		background-image: url(../images/arrow-down-icon.png); /* Ikon: Dropdown */
+		background-image: url(skins/uniform/images/arrow-down-icon.png); /* Ikon: Dropdown */
 		background-position: 100% 60%;
 		background-repeat: no-repeat;
 		cursor: pointer;
 	}
 	div.uniformMenuFocus {
 		/* @embed */
-		background-image: url(../images/arrow-down-focus-icon.png); /* Ikon: Dropdown-fokus */
+		background-image: url(skins/uniform/images/arrow-down-focus-icon.png); /* Ikon: Dropdown-fokus */
 		background-position: 100% 60%;
 	}
 	/* @noflip */
@@ -678,7 +678,7 @@ div#footer #footer-places li {
 	margin: 0 !important;
 	padding: 0 !important;
 	/* @embed */
-	background-image: url(../images/preferences-break.png);
+	background-image: url(skins/uniform/images/preferences-break.png);
 	background-position: bottom left;
 	background-repeat: no-repeat;
 }
@@ -693,7 +693,7 @@ div#footer #footer-places li {
 		list-style-type: none;
 		list-style-image: none;
 		/* @embed */
-		background-image: url(../images/preferences-break.png);
+		background-image: url(skins/uniform/images/preferences-break.png);
 		background-position: bottom right;
 		background-repeat: no-repeat;
 	}
@@ -717,7 +717,7 @@ div#footer #footer-places li {
 	}
 	#preftoc li.selected a {
 		/* @embed */
-		background-image: url(../images/preferences-fade.png);
+		background-image: url(skins/uniform/images/preferences-fade.png);
 		background-position: bottom;
 		background-repeat: repeat-x;
 		color: #333333;
@@ -732,7 +732,7 @@ div#footer #footer-places li {
 	border: solid 1px #cccccc;
 	background-color: #f9f9f9;
 	/* @embed */
-	background-image: url(../images/preferences-base.png);
+	background-image: url(skins/uniform/images/preferences-base.png);
 }
 #preferences fieldset {
 	border: none;
@@ -781,7 +781,7 @@ div#content {
 
 ul {
 	/* @embed */
-	list-style-image: url(../images/bullet-icon.png);
+	list-style-image: url(skins/uniform/images/bullet-icon.png);
 }
 
 pre {
@@ -801,37 +801,37 @@ pre {
 div#content a.external,
 div#content a.external[href ^="gopher://"] {
 	/* @embed */
-	background: url(../images/external-link-ltr-icon.png) center right no-repeat;
+	background: url(skins/uniform/images/external-link-ltr-icon.png) center right no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href ^="https://"],
 .link-https {
 	/* @embed */
-	background: url(../images/lock-icon.png) center right no-repeat;
+	background: url(skins/uniform/images/lock-icon.png) center right no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href ^="mailto:"],
 .link-mailto {
 	/* @embed */
-	background: url(../images/mail-icon.png) center right no-repeat;
+	background: url(skins/uniform/images/mail-icon.png) center right no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href ^="news:"] {
 	/* @embed */
-	background: url(../images/news-icon.png) center right no-repeat;
+	background: url(skins/uniform/images/news-icon.png) center right no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href ^="ftp://"],
 .link-ftp {
 	/* @embed */
-	background: url(../images/file-icon.png) center right no-repeat;
+	background: url(skins/uniform/images/file-icon.png) center right no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href ^="irc://"],
 div#content a.external[href ^="ircs://"],
 .link-irc {
 	/* @embed */
-	background: url(../images/talk-icon.png) center right no-repeat;
+	background: url(skins/uniform/images/talk-icon.png) center right no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href $=".ogg"], div#content a.external[href $=".OGG"],
@@ -842,7 +842,7 @@ div#content a.external[href $=".wav"], div#content a.external[href $=".WAV"],
 div#content a.external[href $=".wma"], div#content a.external[href $=".WMA"],
 .link-audio {
 	/* @embed */
-	background: url(../images/audio-icon.png) center right no-repeat;
+	background: url(skins/uniform/images/audio-icon.png) center right no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href $=".ogm"], div#content a.external[href $=".OGM"],
@@ -851,7 +851,7 @@ div#content a.external[href $=".mpeg"], div#content a.external[href $=".MPEG"],
 div#content a.external[href $=".mpg"], div#content a.external[href $=".MPG"],
 .link-video {
 	/* @embed */
-	background: url(../images/video-icon.png) center right no-repeat;
+	background: url(skins/uniform/images/video-icon.png) center right no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href $=".pdf"], div#content a.external[href $=".PDF"],
@@ -859,7 +859,7 @@ div#content a.external[href *=".pdf#"], div#content a.external[href *=".PDF#"],
 div#content a.external[href *=".pdf?"], div#content a.external[href *=".PDF?"],
 .link-document {
 	/* @embed */
-	background: url(../images/document-icon.png) center right no-repeat;
+	background: url(skins/uniform/images/document-icon.png) center right no-repeat;
 	padding-right: 13px;
 }
 
@@ -871,7 +871,7 @@ div#content .printfooter {
 #pt-anonuserpage,
 #pt-login {
 	/* @embed */
-	background: url(../images/user-icon.png) left top no-repeat;
+	background: url(skins/uniform/images/user-icon.png) left top no-repeat;
 	padding-left: 15px !important;
 	text-transform: none;
 }
@@ -911,7 +911,7 @@ div#bodyContent {
 	height: 0;
 	overflow: hidden;
 	/* @embed */
-	background-image: url(../images/watch-icons.png);
+	background-image: url(skins/uniform/images/watch-icons.png);
 }
 #ca-unwatch.icon a {
 	background-position: -43px 60%;
@@ -930,7 +930,7 @@ div#bodyContent {
 #ca-unwatch.icon a.loading,
 #ca-watch.icon a.loading {
 	/* @embed */
-	background-image: url(../images/watch-icon-loading.gif);
+	background-image: url(skins/uniform/images/watch-icon-loading.gif);
 	background-position: 5px 60%;
 }
 #ca-unwatch.icon a span,
