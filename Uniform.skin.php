@@ -414,18 +414,22 @@ class UniformTemplate extends BaseTemplate {
 		<?php if($key == "watchlist" || $key == "mycontris" || $key == "userpage"){?>
 		<?php echo $this->makeListItem( $key, $item ); ?>	
 		<?}?>
-<?php} ?>
 
-				</ul>
-	<div>Pil
-		<ul class="p-dropdown" <?php $this->html( 'userlangattributes' ) ?>>
-	<?php	foreach( $this->getPersonalTools() as $key => $item ) { ?>
-			<?php if($key != "watchlist" && $key != "mycontris" && $key != "userpage"){?>
-			<?php echo $this->makeListItem( $key, $item ); ?>	
-			<?}?>
-	<?php			} ?>
-		</ul>
-	</div>
+
+		<li id="p-dropdownpil">
+			<ul<?php $this->html( 'userlangattributes' ) ?>>	
+			<?php /* <ul<?php $this->html( 'userlangattributes' ) ?>>	
+ 			<?php	foreach( $this->getPersonalTools() as $key => $item ) { ?>
+ 			<?php if($key != "watchlist" && $key != "mycontris" && $key != "userpage"){?>
+ 			<?php echo $this->makeListItem( $key, $item ); ?>	
+ 			<?} ?>
+ 			<?php}  ?> 
+			</ul>
+			</ul> */?>
+ 		</li>
+ 
+ 	</ul>
+
 
 
 </div>
