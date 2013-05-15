@@ -365,7 +365,6 @@ div#mw-head h5 {
 		padding-left: 0.5em;
 		padding-top: 1.375em;
 		font-weight: normal;
-		font-family:'IstokWebRegular',sans-serif;
 		border: none;
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
@@ -468,8 +467,7 @@ div#mw-head h5 {
 	}
 	/* @noflip */
 	#p-search {
-		float: left;
-		display:none; /* Opgave: Skjult midlertidigt. Flyt til sidebar. */
+		float: left; /* Opgave: Skjult midlertidigt. Flyt til sidebar. */
 	}
 	#p-search {
 		margin-right: 0.5em;
@@ -575,8 +573,7 @@ div#mw-panel {
 		direction: ltr;
 	}
 	div#mw-panel div.portal h5 {
-		font-weight: normal;
-		font-family:'IstokWebBold',sans-serif;
+		font-weight: bold;
 		color: #444444;
 		padding: 0 0 0 0em;
 		cursor: default;
