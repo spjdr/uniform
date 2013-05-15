@@ -73,7 +73,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family:'IstokWebRegular',sans-serif;
+	font-family:'IstokWeb',sans-serif;
 	font-size: 1em;
 }
 body {
@@ -151,14 +151,6 @@ p{
 p img{
 	margin:0
 }
-
-strong,b {
-	font-family:'IstokWebBold',sans-serif;
-}
-
-em,i {
-	font-family:'IstokWebItalic',sans-serif;
-} 
 
 /* Content */
 div#content {
