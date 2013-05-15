@@ -417,7 +417,7 @@ class UniformTemplate extends BaseTemplate {
 <?php} ?>
 
 		<li id="p-dropdownpil">Pil
-			<ul<?php $this->html( 'userlangattributes' ) ?>>
+			<ul>
 			<?php /*	foreach( $this->getPersonalTools() as $key => $item ) { ?>
 			<?php if($key != "watchlist" && $key != "mycontris" && $key != "userpage"){?>
 			<?php echo $this->makeListItem( $key, $item ); ?>	
