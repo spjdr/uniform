@@ -270,6 +270,7 @@ class UniformTemplate extends BaseTemplate {
 			echo "\n<!-- {$name} -->\n";
 			switch( $name ) {
 				case 'SEARCH':
+					$this->renderNavigation('search');
 					break;
 				case 'TOOLBOX':
 					$this->renderPortal( 'tb', $this->getToolbox(), 'toolbox', 'SkinTemplateToolboxEnd' );
