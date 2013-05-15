@@ -216,7 +216,7 @@ div#mw-head h5 {
 	}
 
 	#p-personal div:hover ul{
-		display: static;
+		display: block;
 	}
 
 	.p-dropdown{
