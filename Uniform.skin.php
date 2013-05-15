@@ -430,7 +430,7 @@ class UniformTemplate extends BaseTemplate {
 		}
 	}?>
 	<?php echo $p['disp']; ?>
-	<?php if ($p['dropdown']!='') { echo '<li id="p-personal-dropdown"><ul>'.$p['dropdown'].'</ul></li>'; ?>
+	<?php if ($p['dropdown']!='') { echo '<li id="p-personal-dropdown"><ul>'.$p['dropdown'].'</ul></li>'; } ?>
 	<?php echo $p['access']; ?>
 	<?php /*foreach( $this->getPersonalTools() as $key => $item ) { ?>
 		<?php if($key == "watchlist" || $key == "mycontris" || $key == 'usertalk' || $key == 'preferences' || $key == 'newmessages'){ ?>
