@@ -410,7 +410,7 @@ class UniformTemplate extends BaseTemplate {
 	<h5><?php $this->msg( 'personaltools' ) ?></h5>
 	<ul<?php $this->html( 'userlangattributes' ) ?>>
 <?php	foreach( $this->getPersonalTools() as $key => $item ) { ?>
-		<?php echo $item;?>
+		<?php echo $key;?>
 		<?php if($item != "Mine bidrag"){?>
 		<?php echo $this->makeListItem( $key, $item ); ?>	
 		<?}?>
