@@ -215,6 +215,14 @@ div#mw-head h5 {
 		float: left;
 	}
 
+	#p-personal div:hover ul{
+		display: static;
+	}
+
+	.p-dropdown{
+		display:none;
+	}
+
 	/* This one flips! */
 	#p-personal li {
 		margin-left: 0.75em;
