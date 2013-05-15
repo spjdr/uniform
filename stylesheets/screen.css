@@ -466,15 +466,15 @@ div#mw-head h5 {
 	}
 	/* Search */
 	#p-search h5 {
-		display: none;
+		/*display: none;*/
 	}
 	/* @noflip */
 	#p-search {
 		/*float: left; Opgave: Flyttet til sidebar. */
 	}
 	#p-search {
-		margin-right: 0.5em;
-		margin-left: 0.5em;
+		/*margin-right: 0.5em;
+		margin-left: 0.5em;*/
 	}
 	#p-search form,
 	#p-search input {
@@ -485,8 +485,8 @@ div#mw-head h5 {
 		display: block;
 		/*width: 14em;*/
 		height: 1.4em;
-		/*margin-top: 0.65em;
-		position: relative;*/
+		/*margin-top: 0.65em;*/
+		position: relative;
 		min-height: 1px; /* Gotta trigger hasLayout for IE7 */
 		border: solid 1px #AAAAAA;
 		color: black;

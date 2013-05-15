@@ -411,11 +411,16 @@ class UniformTemplate extends BaseTemplate {
 	<h5><?php $this->msg( 'personaltools' ) ?></h5>
 
 	<ul<?php $this->html( 'userlangattributes' ) ?>>
+
+
+
+	<?php $personaltools = $this->getPersonalTools(); 
+	echo '<div style="display: block; z-index:100">'.implode(',',array_keys($personaltools)).'</div>';?>
+
 <?php foreach( $this->getPersonalTools() as $key => $item ) { ?>
-		<?php if($key == "watchlist" || $key == "mycontris" || $key == "userpage"){ ?>
+		<?php if($key == "watchlist" || $key == "mycontris" || $key == "userpage" || $key == 'usertalk' || $key == 'preferences'){ ?>
 			<?php echo $this->makeListItem( $key, $item ); ?>	
 		<?php } ?>
-
 
 		<li id="p-dropdownpil">
 			<ul<?php $this->html( 'userlangattributes' ) ?>>	
@@ -428,6 +433,7 @@ class UniformTemplate extends BaseTemplate {
 			</ul>
 			</ul> */?>
  		</li>
+
 <?php } ?>
  	</ul>
 </div>
