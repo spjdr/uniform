@@ -219,12 +219,12 @@ div#mw-head h5 {
 		
 	}
 	
-	#p-dropdownpil:hover ul{
+	#p-dropdownpil ul{
 		display: block;
 	}
 
 	.p-dropdown{
-		display:none;
+		
 	}
 
 	/* This one flips! */
