@@ -200,7 +200,6 @@ div#mw-head h5 {
 		right: 0.75em;
 		text-transform:none;
 		list-style: none;
-		display: none; /* opgave: se nedenfor. */
 	}
 	#p-personal h5 {
 		display: none; /* opgave: Skjuler afsnits-overskriften 'Personlige værktøjer'. Skal gøres til li og benyttes som hoved for dropdown */
