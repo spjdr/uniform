@@ -111,7 +111,6 @@ h2 .editsection{
 h3,h4,h5,h6{
 	border-bottom:none;
 	font-weight:bold;
-	font-family:'IstokWeb',sans-serif;
 }
 h3 .editsection,h4 .editsection,h5 .editsection,h6 .editsection{
 	font-weight:normal;
