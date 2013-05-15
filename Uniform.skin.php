@@ -416,17 +416,17 @@ class UniformTemplate extends BaseTemplate {
 		<?}?>
 <?php} ?>
 
-		<li id="p-dropdownpil">
-			<?php /* <ul<?php $this->html( 'userlangattributes' ) ?>>	
-			<?php	foreach( $this->getPersonalTools() as $key => $item ) { ?>
+				</ul>
+	<div>Pil
+		<ul class="p-dropdown" <?php $this->html( 'userlangattributes' ) ?>>
+	<?php	foreach( $this->getPersonalTools() as $key => $item ) { ?>
 			<?php if($key != "watchlist" && $key != "mycontris" && $key != "userpage"){?>
 			<?php echo $this->makeListItem( $key, $item ); ?>	
-			<?} ?>
-			<?php}  ?> 
-			</ul> */?>
-		</li>
+			<?}?>
+	<?php			} ?>
+		</ul>
+	</div>
 
-	</ul>
 
 </div>
 <?php
