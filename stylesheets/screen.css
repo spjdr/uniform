@@ -470,7 +470,7 @@ div#mw-head h5 {
 	}
 	/* @noflip */
 	#p-search {
-		float: left; /* Opgave: Skjult midlertidigt. Flyt til sidebar. */
+		/*float: left; Opgave: Flyttet til sidebar. */
 	}
 	#p-search {
 		margin-right: 0.5em;
@@ -479,14 +479,14 @@ div#mw-head h5 {
 	#p-search form,
 	#p-search input {
 		margin: 0;
-		margin-top: 0.4em;
+		/*margin-top: 0.4em;*/
 	}
 	div#simpleSearch {
 		display: block;
-		width: 14em;
+		/*width: 14em;*/
 		height: 1.4em;
-		margin-top: 0.65em;
-		position: relative;
+		/*margin-top: 0.65em;
+		position: relative;*/
 		min-height: 1px; /* Gotta trigger hasLayout for IE7 */
 		border: solid 1px #AAAAAA;
 		color: black;

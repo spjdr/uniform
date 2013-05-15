@@ -202,7 +202,7 @@ class UniformTemplate extends BaseTemplate {
 				<?php $this->renderNavigation( array( 'NAMESPACES', 'VARIANTS' ) ); ?>
 			</div>
 			<div id="right-navigation">
-				<?php $this->renderNavigation( array( 'VIEWS', 'ACTIONS', 'SEARCH' ) ); ?>
+				<?php $this->renderNavigation( array( 'VIEWS', 'ACTIONS' ) ); ?>
 			</div>
 		</div>
 		<!-- /header -->
@@ -435,7 +435,7 @@ class UniformTemplate extends BaseTemplate {
 				break;
 				case 'SEARCH':
 ?>
-<div id="p-search">
+<div class="portal" id="p-search">
 	<h5<?php $this->html( 'userlangattributes' ) ?>><label for="searchInput"><?php $this->msg( 'search' ) ?></label></h5>
 	<form action="<?php $this->text( 'wgScript' ) ?>" id="searchform">
 		<?php if ( true ): //$wgUniformUseSimpleSearch && $this->getSkin()->getUser()->getOption( 'uniform-simplesearch' ) ): ?>
