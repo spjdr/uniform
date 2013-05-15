@@ -215,7 +215,11 @@ div#mw-head h5 {
 		float: left;
 	}
 
-	#p-personal div:hover ul{
+	#p-dropdown ul{
+		
+	}
+	
+	#p-dropdownpil:hover ul{
 		display: block;
 	}
 
