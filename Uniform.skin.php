@@ -414,8 +414,8 @@ class UniformTemplate extends BaseTemplate {
 
 	<?php $ptools = $this->getPersonalTools(); 
 	## Select those for dropdown
-	$pdroplist = array('watchlist','mycontris','usertalk','preferences','newmessages');
-	$pacclist = array('anonlogin','login','createaccount');
+	$pdroplist = array('mytalk','watchlist','mycontris','usertalk','preferences','newmessages');
+	$pacclist = array('anonlogin','login','logout','createaccount');
 	$p = array('disp'=>'','dropdown'=>'','access'=>'');
 	
 	foreach ($ptools as $key => $item) {
