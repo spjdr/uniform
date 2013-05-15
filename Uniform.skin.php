@@ -411,12 +411,12 @@ class UniformTemplate extends BaseTemplate {
 
 	<ul<?php $this->html( 'userlangattributes' ) ?>>
 <?php	foreach( $this->getPersonalTools() as $key => $item ) { ?>
-		<?php if($key == "watchlist" && $key == "mycontris" && $key == "userpage"){?>
+		<?php if($key == "watchlist" || $key == "mycontris" || $key == "userpage"){?>
 		<?php echo $this->makeListItem( $key, $item ); ?>	
 		<?}?>
 <?php			} ?>
 	</ul>
-	
+
 	<ul<?php $this->html( 'userlangattributes' ) ?>>
 <?php	foreach( $this->getPersonalTools() as $key => $item ) { ?>
 		<?php if($key != "watchlist" && $key != "mycontris" && $key != "userpage"){?>
