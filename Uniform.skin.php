@@ -409,11 +409,20 @@ class UniformTemplate extends BaseTemplate {
 <div id="p-personal" class="<?php if ( count( $this->data['personal_urls'] ) == 0 ) echo ' emptyPortlet'; ?>">
 	<h5><?php $this->msg( 'personaltools' ) ?></h5>
 	<ul<?php $this->html( 'userlangattributes' ) ?>>
-<?php			foreach( $this->getPersonalTools() as $key => $item ) { ?>
-		<?php echo $this->makeListItem( $key, $item ); ?>
-
+<?php	foreach( $this->getPersonalTools() as $key => $item ) { ?>
+		
+		<?php if($item != "Mine bidrag"){?>
+		<?php echo $this->makeListItem( $key, $item ); ?>	
+		<?}?>
 <?php			} ?>
 	</ul>
+
+	<?/*
+	<ul<?php $this->html( 'userlangattributes' ) ?>>
+<?php			foreach( $this->getPersonalTools() as $key => $item ) { ?>
+		<?php echo $this->makeListItem( $key, $item ); ?>
+<?php			} ?>
+	</ul>*/?>
 </div>
 <?php
 				break;
