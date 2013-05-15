@@ -428,7 +428,7 @@ class UniformTemplate extends BaseTemplate {
 		else {
 			$p['disp'] .= $this->makeListItem( $key, $item );
 		}
-	}
+	}?>
 	<?php echo $p['disp']; ?>
 	<?php if ($p['dropdown']!='') { echo '<li id="p-personal-dropdown"><ul>'.$p['dropdown'].'</ul></li>'; ?>
 	<?php echo $p['access']; ?>
