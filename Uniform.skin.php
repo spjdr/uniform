@@ -438,7 +438,7 @@ class UniformTemplate extends BaseTemplate {
 <div id="p-search">
 	<h5<?php $this->html( 'userlangattributes' ) ?>><label for="searchInput"><?php $this->msg( 'search' ) ?></label></h5>
 	<form action="<?php $this->text( 'wgScript' ) ?>" id="searchform">
-		<?php if ( $wgUniformUseSimpleSearch && $this->getSkin()->getUser()->getOption( 'uniform-simplesearch' ) ): ?>
+		<?php if ( true ): //$wgUniformUseSimpleSearch && $this->getSkin()->getUser()->getOption( 'uniform-simplesearch' ) ): ?>
 		<div id="simpleSearch">
 			<?php if ( $this->data['rtl'] ): ?>
 			<?php echo $this->makeSearchButton( 'image', array( 'id' => 'searchButton', 'src' => $this->getSkin()->getSkinStylePath( 'images/search-rtl.png' ) ) ); ?>
