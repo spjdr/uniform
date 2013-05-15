@@ -422,7 +422,7 @@ class UniformTemplate extends BaseTemplate {
 <div id="p-search">
 	<h5<?php $this->html( 'userlangattributes' ) ?>><label for="searchInput"><?php $this->msg( 'search' ) ?></label></h5>
 	<form action="<?php $this->text( 'wgScript' ) ?>" id="searchform">
-		<?php /* if ( $wgUniformUseSimpleSearch && $this->getSkin()->getUser()->getOption( 'uniform-simplesearch' ) ):*/ ?>
+		<?php if ( $wgUniformUseSimpleSearch && $this->getSkin()->getUser()->getOption( 'uniform-simplesearch' ) ): ?>
 		<div id="simpleSearch">
 			<?php if ( $this->data['rtl'] ): ?>
 			<?php echo $this->makeSearchButton( 'image', array( 'id' => 'searchButton', 'src' => $this->getSkin()->getSkinStylePath( 'images/search-rtl.png' ) ) ); ?>
@@ -431,12 +431,12 @@ class UniformTemplate extends BaseTemplate {
 			<?php if ( !$this->data['rtl'] ): ?>
 			<?php echo $this->makeSearchButton( 'image', array( 'id' => 'searchButton', 'src' => $this->getSkin()->getSkinStylePath( 'images/search-ltr.png' ) ) ); ?>
 			<?php endif; ?>
-		<?php/* else: ?>
+		<?php else: ?>
 		<div>
 			<?php echo $this->makeSearchInput( array( 'id' => 'searchInput' ) ); ?>
 			<?php echo $this->makeSearchButton( 'go', array( 'id' => 'searchGoButton', 'class' => 'searchButton' ) ); ?>
 			<?php echo $this->makeSearchButton( 'fulltext', array( 'id' => 'mw-searchButton', 'class' => 'searchButton' ) ); ?>
-		<?php  endif;*/ ?>
+		<?php  endif; ?>
 			<input type='hidden' name="title" value="<?php $this->text( 'searchtitle' ) ?>"/>
 		</div>
 	</form>
