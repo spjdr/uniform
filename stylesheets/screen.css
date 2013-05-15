@@ -174,11 +174,11 @@ p img{
 	margin:0
 }
 
-b {
+strong,b {
 	font-family:'IstokWebBold',sans-serif;
 }
 
-i {
+em,i {
 	font-family:'IstokWebItalic',sans-serif;
 } 
 
