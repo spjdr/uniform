@@ -412,29 +412,37 @@ class UniformTemplate extends BaseTemplate {
 
 	<ul<?php $this->html( 'userlangattributes' ) ?>>
 
-
-
-	<?php $personaltools = $this->getPersonalTools(); 
-	echo '<div style="display: block; z-index:100">'.implode(',',array_keys($personaltools)).'</div>';?>
-
-<?php foreach( $this->getPersonalTools() as $key => $item ) { ?>
-		<?php if($key == "watchlist" || $key == "mycontris" || $key == "userpage" || $key == 'usertalk' || $key == 'preferences'){ ?>
-			<?php echo $this->makeListItem( $key, $item ); ?>	
+	<?php $ptools = $this->getPersonalTools(); 
+	## Select those for dropdown
+	$pdroplist = array('watchlist','mycontris','usertalk','preferences','newmessages');
+	$pacclist = array('anonlogin','login','createaccount');
+	$p = array('disp'=>'','dropdown'=>'','access'=>'');
+	
+	foreach ($ptools as $key => $item) {
+		if (in_array($key,$pdroplist)) {
+			$p['dropdown'] .= $this->makeListItem( $key, $item );
+		}
+		elseif (in_array($key,$pacclist)) {
+			$p['access'] .= $this->makeListItem( $key, $item );
+		}
+		else {
+			$p['disp'] .= $this->makeListItem( $key, $item );
+		}
+	}
+	<?php echo $p['disp']; ?>
+	<?php if ($p['dropdown']!='') { echo '<li id="p-personal-dropdown"><ul>'.$p['dropdown'].'</ul></li>'; ?>
+	<?php echo $p['access']; ?>
+	<?php /*foreach( $this->getPersonalTools() as $key => $item ) { ?>
+		<?php if($key == "watchlist" || $key == "mycontris" || $key == 'usertalk' || $key == 'preferences' || $key == 'newmessages'){ ?>
+			<?php $personaldropdown .= $this->makeListItem( $key, $item ); ?>	
 		<?php } ?>
 
-		<li id="p-dropdownpil">
+		
 			<ul<?php $this->html( 'userlangattributes' ) ?>>	
-			<?php /* <ul<?php $this->html( 'userlangattributes' ) ?>>	
- 			<?php	foreach( $this->getPersonalTools() as $key => $item ) { ?>
- 			<?php if($key != "watchlist" && $key != "mycontris" && $key != "userpage"){?>
- 			<?php echo $this->makeListItem( $key, $item ); ?>	
- 			<?php } ?>
- 			<?php }  ?> 
-			</ul>
-			</ul> */?>
+			<?php echo ?>
  		</li>
 
-<?php } ?>
+<?php } */?>
  	</ul>
 </div>
 <?php
