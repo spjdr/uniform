@@ -19,9 +19,20 @@ Man loader javascript og stylesheets via MediaWikis ResourceLoader. Det gør man
 
 Templaten bestemmes af **Uniform.skin.php**. Udgangspunktet er Vector-templaten, men alt kan ændres. Ender vi med at have samme template som Vector, kan vi forsimple koden (og lette overgangen ved opdateringer af MediaWiki) ved at arve templaten direkte fra Vector skin.
 
+Vi har modificeret templaten så søgefeltet nu er flyttet over i sidebaren og styres af artiklen Mediawiki:Sidebar. Indtast **SEARCH** på sin egen linje for at indsætte et søgefelt i sidebaren. Vær også opmærksom på at sidebaren caches, så ændringerne ikke dukker op lige med det samme.
+
+Derudover er de personlige værktøjer sat lidt anderledes op. Alt der ikke er link til egen side og login/logout ligger nu i en underliste.
+
 ### Images
 
 Alle billeder bør ligges i folderen **images/**. Læg kun billeder der er nødvendige for skinnet.
+
+Vi har indført [GPlay mønstret af Dimitrie Hoekstra fra subtlepatterns.com](http://subtlepatterns.com/gplay/), som en fin baggrund til siden. Mønstret er licenseret under CC-BY-SA 3.0.
+
+### Fonte
+
+Vi bruger fontene Bitter og Istok fra fontsquirrel.com. Bitter er til overskrifter og Istok er til brødtekst.
+
 
 
 ... Happy skin hacking!
