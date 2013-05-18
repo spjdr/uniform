@@ -464,6 +464,17 @@ div#mw-head h5 {
 		color: #333333;
 		text-decoration: none;
 	}
+	
+	/* icons! */
+	
+	#ca-edit span a {
+	   background-position: .2em center;
+	   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKdJREFUeNpiZCAC2BroBwCpfiBWgAo9AOLCwxcubmAkQnMCkJqPQzqQmQLNIGDBRKTmC0CsCKWRgQITkZodgf4F+dsR3RAmIjV/AHGgdCCS8gdMxGqGygsAqfVIWgqZSNS8H4gNoEKJ8GgkU/MCEIOREs2wQESO5wNICglqhrngP5aYhEUXXs1YoxEK/InRDAIsOAwoQGLj1IzPBURpJmQAQc0gABBgAB7iZI2Mei0sAAAAAElFTkSuQmCC');
+	   background-repeat: no-repeat;
+	   padding-left: 2em;
+	}
+	
+	
 	/* Search */
 	#p-search h5 {
 		/*display: none;*/
