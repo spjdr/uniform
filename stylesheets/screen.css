@@ -466,14 +466,34 @@ div#mw-head h5 {
 	}
 	
 	/* icons! */
-	
+
+	#ca-view span a {
+	   background-position: .2em center;
+	   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQCAYAAAAiYZ4HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFVJREFUeNpitDXQ/8+AG1wAYsfDFy5+gAkwMeAHBkC8H2ioAEyAEWYD0BRGZJVoNsNtImQDhk3EaoBrIkUDWBMLLhlcfiLVhlENRAEWHGmHejYABBgAyuEaE/CZfYwAAAAASUVORK5CYII=');
+	   background-repeat: no-repeat;
+	   padding-left: 1.8em;
+	}
+
 	#ca-edit span a {
 	   background-position: .2em center;
 	   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKdJREFUeNpiZCAC2BroBwCpfiBWgAo9AOLCwxcubmAkQnMCkJqPQzqQmQLNIGDBRKTmC0CsCKWRgQITkZodgf4F+dsR3RAmIjV/AHGgdCCS8gdMxGqGygsAqfVIWgqZSNS8H4gNoEKJ8GgkU/MCEIOREs2wQESO5wNICglqhrngP5aYhEUXXs1YoxEK/InRDAIsOAwoQGLj1IzPBURpJmQAQc0gABBgAB7iZI2Mei0sAAAAAElFTkSuQmCC');
 	   background-repeat: no-repeat;
-	   padding-left: 2em;
+	   padding-left: 1.8em;
 	}
 	
+	#ca-history span a {
+	   background-position: .2em center;
+	   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeNpiZEADtgb6DkAKhO2hNAgcAOKDIPrwhYsHkNUz4tBACMANBBnwn4ECwMRAIWABYkeKvECNQPyPTwEhC3AFItxAKB+nFymPxtEwoDwMAAIMAEi6Ru+BJ/rRAAAAAElFTkSuQmCC');
+	   background-repeat: no-repeat;
+	   padding-left: 1.8em;	
+	}
+	
+	#ca-talk span a {
+	   background-position: .2em center;
+	   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANVJREFUeNpiZAACWwN9ASBVAMT5QAxi4wIfgHgDEDcevnDxAUiAEWrAeSBlwEA8ABnkCDTkAiNQcwOQUw+VAJk+EShxAF0HUJ0DkHJAciXIEEOQAe+hAhuAGgMJWQ1UD3LpfqieBUxIfp5IjNtBzkZSG8CEJHGAhDCAqRVgYqAQkGuAAyw2SDYAGoj5sFhjIVKTADSdoEdjIwuSogAosx+IFYhMSA9ABjyAaiBWI0pSBhlQCMTrkTRfgCrYQIz3mB+9eHlDXkLiIpBtAfVbJrGaQQAgwAB1/kcjKs0vogAAAABJRU5ErkJggg==');
+	   background-repeat: no-repeat;
+	   padding-left: 1.8em;	
+	}
 	
 	/* Search */
 	#p-search h5 {
