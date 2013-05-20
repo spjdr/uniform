@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5,h6 {
  	overflow:hidden;
  	padding-top:.5em;
  	padding-bottom:.17em;
- 	border-bottom:none; /*Test, så vi kan se hvordan det fungerer uden i forhold til at det bryder sidens flow.*/
+ 	border-bottom:none; /*Test, så vi kan se hvordan det fungerer uden i forhold til at det bryder sidens flow.*/	
  	width:auto;
 }
 h1,h2{
@@ -186,7 +186,6 @@ div#mw-head {
 	top: 0;
 	right: 0;
 	width: 100%;
-	font-size:1.05em;
 }
 div#mw-head h5 {
 	margin: 0;
@@ -206,7 +205,7 @@ div#mw-head h5 {
 		list-style: none;
 	}
 	#p-personal h5 {
-		display: none; /* opgave: Skjuler afsnits-overskriften 'Personlige værktøjer'. Skal gøres til li og benyttes som hoved for dropdown */
+		display: none;
 	}
 	#p-personal ul {
 		list-style: none;
@@ -238,7 +237,7 @@ div#mw-head h5 {
 	}
 	#right-navigation {
 		position:absolute;
-		margin:0 0 0 25em;
+		margin:0 0 0 34em;
 	}
 	/* Navigation Labels */
 	div.uniformTabs h5,
@@ -249,12 +248,11 @@ div#mw-head h5 {
 	/* @noflip */
 	div.uniformTabs {
 		float: left;
-		height: 2.5em;
+		height: 100%;
 	}
 	div.uniformTabs {
 		/* @embed */
 		background-image: none;
-		padding-left: 1px;
 	}
 	/* @noflip */
 	div.uniformTabs ul {
@@ -472,30 +470,30 @@ div#mw-head h5 {
 	/* icons! */
 
 	#ca-view span a {
-	   background-position: .3em center;
+	   background-position: left center;
 	   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQCAYAAAAiYZ4HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFVJREFUeNpitDXQ/8+AG1wAYsfDFy5+gAkwMeAHBkC8H2ioAEyAEWYD0BRGZJVoNsNtImQDhk3EaoBrIkUDWBMLLhlcfiLVhlENRAEWHGmHejYABBgAyuEaE/CZfYwAAAAASUVORK5CYII=');
 	   background-repeat: no-repeat;
-	   padding-left: 1.8em;
+	   padding-left: 1.65em;
 	}
 
 	#ca-edit span a {
-	   background-position: .3em center;
+	   background-position: left center;
 	   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAKdJREFUeNpiZCAC2BroBwCpfiBWgAo9AOLCwxcubmAkQnMCkJqPQzqQmQLNIGDBRKTmC0CsCKWRgQITkZodgf4F+dsR3RAmIjV/AHGgdCCS8gdMxGqGygsAqfVIWgqZSNS8H4gNoEKJ8GgkU/MCEIOREs2wQESO5wNICglqhrngP5aYhEUXXs1YoxEK/InRDAIsOAwoQGLj1IzPBURpJmQAQc0gABBgAB7iZI2Mei0sAAAAAElFTkSuQmCC');
 	   background-repeat: no-repeat;
-	   padding-left: 1.8em;
+	   padding-left: 1.65em;
 	}
 	
 	#ca-history span a {
-	   background-position: .3em center;
+	   background-position: left center;
 	   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeNpiZEADtgb6DkAKhO2hNAgcAOKDIPrwhYsHkNUz4tBACMANBBnwn4ECwMRAIWABYkeKvECNQPyPTwEhC3AFItxAKB+nFymPxtEwoDwMAAIMAEi6Ru+BJ/rRAAAAAElFTkSuQmCC');
 	   background-repeat: no-repeat;
-	   padding-left: 1.8em;	
+	   padding-left: 1.65em;	
 	}
 	
 	#ca-talk span a {
-	   background-position: .3em center;
+	   background-position: left center;
  	   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0EyQzRFRDFCODFEMTFFMkJFNzRBQzk4OERBRUUzMzMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0EyQzRFRDJCODFEMTFFMkJFNzRBQzk4OERBRUUzMzMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDQTJDNEVDRkI4MUQxMUUyQkU3NEFDOTg4REFFRTMzMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDQTJDNEVEMEI4MUQxMUUyQkU3NEFDOTg4REFFRTMzMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmPlXFAAAACzSURBVHjaYmFjYWFAA/ZA3AXEZgz4wSkgLmPCIrECiL8DsTkQM+LA5lA1KxixuOA/EEsC8QsCLpAA4ufYDCAF/GeC+vkk1GZ8+CRULQoAueA51DnEgBdQ74GANBA/ARnwn0RnM0ItnA/EuuQa8B/qmkRKDADRDExkhv53GANkwFMSNMLUZiEbkEJEooHFQAqUvQA5GpFTIAg0AXE9sU5CDwOSNIMAMzMTE7Jh9aSGJkCAAQCD8SiZAJR3xwAAAABJRU5ErkJggg==);	   background-repeat: no-repeat;
-	   padding-left: 1.8em;	
+	   padding-left: 1.65em;	
 	}
 	
 	/* Search */
@@ -504,7 +502,7 @@ div#mw-head h5 {
 	}
 	/* @noflip */
 	#p-search {
-		/*float: left; Opgave: Flyttet til sidebar. */
+		/*float: left */
 	}
 	#p-search {
 		/*margin-right: 0.5em;
