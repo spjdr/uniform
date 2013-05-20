@@ -196,21 +196,65 @@ div#mw-head h5 {
 	/* Personal */
 	#p-personal {
 		position: absolute;
-		top: 0;
-		right: 0.75em;
-		text-transform:none;
-		list-style: none;
+    	top: 0;
+    	right:0;
+    	text-transform:none;
+    	list-style: none;
+    	float:right;
 	}
 	#p-personal h5 {
 		display: none;
 	}
-	#p-personal ul {
+	/* NEW CODE */
+	div#p-personal ul {
+	    background: #f1f1f1;
+	    margin:0;
+	    padding: 0;
+	    list-style: none;
+	}
+	div > ul > li {
+	    display: inline-block;
+	    position: relative;
+	    padding: .6em 1em;
+	    cursor: pointer;
+	}
+	div li#p-personal-dropdown ul {
+	    position: absolute;
+	    top: 100%;
+	    right: 0;
+	    background: #CCC;
+	    padding: 0 0;
+	    display:none;
+	    white-space:nowrap;
+	    text-align:right;
+	    list-style: none;
+	}
+	div > ul > li#p-personal-dropdown:hover ul,
+	div > ul > li#p-personal-dropdown:active ul {
+	    display: block;
+	}
+	li#p-personal-dropdown li{
+	    padding: 0.30em 1em;
+	}
+	li#p-personal-dropdown {
+	     background: url(http://beta.spjdrpedia.dk/w/skins/uniform/images/arrow-down-icon.png) no-repeat center center;
+	}
+
+	* li#pt-userpage {
+	    background-position: .6em center;
+	    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAORJREFUeNqcUjEOgzAMjDqwkpkpT/ET8oRurDwhT8gT+oRMVbf2CXlCxo5ITEyujRJEg1FRT7oBx6ezfShEVDUJnoiZN7FHEF03okJX913UHlaoQV2QhKcgCYNQi7vKwXEem/3eRH1qx77vn+Wj67o7NVrRkWByBC8CxhjXi4YQMKWEeVzuMWschFQajTE4jiM659BaiwwA2EaTsmZx+8ptGIZFME0Teu9RyNWUjHaP7DrPM2qtJSGIOdKIqm1b1TSNIvfDLEFy4xF5TwbvXTuKQj5GGZEPJI16uOMPwt//6keAAQB0BfLrIj/OrQAAAABJRU5ErkJggg==');
+	    background-repeat: no-repeat;
+	    padding-left: 2em;
+	}
+	
+	/* OLD CODE */
+	/*#p-personal ul {
 		list-style: none;
 		margin: 0;
-		padding-left: 14em; /* Keep from overlapping logo */
+		padding-left: 14em;
 	}
 	/* @noflip */
-	#p-personal li {
+	/*#p-personal li {
 		line-height: 1.125em;
 		float: left;
 	}
@@ -220,12 +264,12 @@ div#mw-head h5 {
 	}
 
 	/* This one flips! */
-	#p-personal li {
+	/*#p-personal li {
 		margin-left: 0.75em;
 		margin-top: 0.5em;
 		font-size: 0.75em;
 		white-space: nowrap;
-	}
+	} */
 	/* Navigation Containers */
 	#left-navigation {
 		position: absolute;
