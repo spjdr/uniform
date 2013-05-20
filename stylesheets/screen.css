@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5,h6 {
  	overflow:hidden;
  	padding-top:.5em;
  	padding-bottom:.17em;
- 	/*border-bottom:1px solid #aaa; Test, så vi kan se hvordan det fungerer uden i forhold til at det bryder sidens flow.*/
+ 	border-bottom:none; /*Test, så vi kan se hvordan det fungerer uden i forhold til at det bryder sidens flow.*/
  	width:auto;
 }
 h1,h2{
@@ -180,7 +180,6 @@ div#content {
 	border-bottom: 1px solid #e1e1e1;
 	/* @embed */
 	background-image: none;
-
 }
 div#mw-head {
 	position: absolute;
