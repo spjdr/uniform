@@ -240,7 +240,9 @@ div#mw-head h5 {
 	     background: url(http://beta.spjdrpedia.dk/w/skins/uniform/images/arrow-down-icon.png) no-repeat center center;
 	}
 
-	#pt-userpage, #pt-anonuserpage, #pt-login {
+	li#pt-userpage, 
+	li#pt-anonuserpage, 
+	li#pt-login {
 	    background-position: .6em center;
 	    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAORJREFUeNqcUjEOgzAMjDqwkpkpT/ET8oRurDwhT8gT+oRMVbf2CXlCxo5ITEyujRJEg1FRT7oBx6ezfShEVDUJnoiZN7FHEF03okJX913UHlaoQV2QhKcgCYNQi7vKwXEem/3eRH1qx77vn+Wj67o7NVrRkWByBC8CxhjXi4YQMKWEeVzuMWschFQajTE4jiM659BaiwwA2EaTsmZx+8ptGIZFME0Teu9RyNWUjHaP7DrPM2qtJSGIOdKIqm1b1TSNIvfDLEFy4xF5TwbvXTuKQj5GGZEPJI16uOMPwt//6keAAQB0BfLrIj/OrQAAAABJRU5ErkJggg==');
 	    background-repeat: no-repeat;
