@@ -152,9 +152,6 @@ p{
 p img{
 	margin:0
 }
-li{
-	font-size:1.1em;
-}
 
 /* Content */
 div#content {
@@ -233,11 +230,14 @@ div#mw-head h5 {
 	#left-navigation {
 		position: absolute;
 		left: 14em;
-		top: 0em;
+		top: 0;
+		font-size:1.05em;
 	}
 	#right-navigation {
 		position:absolute;
-		margin:0 0 0 34em;
+		left:34em;
+		top:0;
+		font-size:1.05em;
 	}
 	/* Navigation Labels */
 	div.uniformTabs h5,
@@ -248,7 +248,7 @@ div#mw-head h5 {
 	/* @noflip */
 	div.uniformTabs {
 		float: left;
-		height: 100%;
+		height: 3em;
 	}
 	div.uniformTabs {
 		/* @embed */
@@ -334,14 +334,14 @@ div#mw-head h5 {
 		float: left;
 		/* @embed */
 		background-image: url(skins/uniform/images/arrow-down-icon.png); /* Ikon: Dropdown */
-		background-position: 100% 60%;
+		background-position: left center;
 		background-repeat: no-repeat;
 		cursor: pointer;
 	}
 	div.uniformMenuFocus {
 		/* @embed */
-		background-image: url(skins/uniform/images/arrow-down-focus-icon.png); /* Ikon: Dropdown-fokus */
-		background-position: 100% 60%;
+		background-image: url(skins/uniform/images/arrow-down-focus-icon.png);
+		background-position: left center;
 	}
 	/* @noflip */
 	body.rtl div.uniformMenu {
@@ -376,8 +376,8 @@ div#mw-head h5 {
 	/* @noflip */
 	div.uniformMenu h5 a {
 		display: inline-block;
-		width: 24px;
-		height: 2.5em;
+		width: 3em;
+		height: 3em;
 		text-decoration: none;
 		/* @embed */
 		background-image: none;
