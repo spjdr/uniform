@@ -407,31 +407,38 @@ class UniformTemplate extends BaseTemplate {
 				break;
 				case 'PERSONAL':
 ?>
-<div id="p-personal" class="<?php if ( count( $this->data['personal_urls'] ) == 0 ) echo ' emptyPortlet'; ?>">
+<div id="p-personal" class="uniformTabs<?php if ( count( $this->data['personal_urls'] ) == 0 ) echo ' emptyPortlet'; ?>">
 	<h5><?php $this->msg( 'personaltools' ) ?></h5>
-
 	<ul<?php $this->html( 'userlangattributes' ) ?>>
-
 	<?php $ptools = $this->getPersonalTools(); 
 	## Select those for dropdown
 	$pdroplist = array('mytalk','watchlist','mycontris','usertalk','preferences','newmessages','logout');
-	$pacclist = array('anonlogin','login','createaccount');
-	$p = array('disp'=>'','dropdown'=>'','access'=>'');
+	// $pacclist = array('anonlogin','login','createaccount');
+	$p = array('disp'=>'','dropdown'=>'');
 	
 	foreach ($ptools as $key => $item) {
 		if (in_array($key,$pdroplist)) {
 			$p['dropdown'] .= $this->makeListItem( $key, $item );
 		}
-		elseif (in_array($key,$pacclist)) {
-			$p['access'] .= $this->makeListItem( $key, $item );
-		}
 		else {
 			$p['disp'] .= $this->makeListItem( $key, $item );
 		}
-	}?>
-	<?php echo $p['disp']; ?>
-	<?php if ($p['dropdown']!='') { echo '<li id="p-personal-dropdown"><ul>'.$p['dropdown'].'</ul></li>'; } ?>
-	<?php echo $p['access']; ?>
+	}
+	echo $p['disp']; ?>
+	</ul>
+</div>
+	<?php if ($p['dropdown']!=''): ?>
+<div id="p-pdropdown" class="uniformMenu"> <!--p personal -->
+	<h5>
+		<span></span>
+		<a href="#"></a>
+	</h5>
+	<div class="menu">
+	<ul>
+		<?php echo $p['dropdown'] ?>
+	</ul>
+</div>
+	<?php endif; ?>
 	<?php /*foreach( $this->getPersonalTools() as $key => $item ) { ?>
 		<?php if($key == "watchlist" || $key == "mycontris" || $key == 'usertalk' || $key == 'preferences' || $key == 'newmessages'){ ?>
 			<?php $personaldropdown .= $this->makeListItem( $key, $item ); ?>	
@@ -443,8 +450,6 @@ class UniformTemplate extends BaseTemplate {
  		</li>
 
 <?php } */?>
- 	</ul>
-</div>
 <?php
 				break;
 				case 'SEARCH':
