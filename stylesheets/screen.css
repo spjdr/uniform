@@ -201,7 +201,7 @@ div#mw-head h5 {
     	text-transform:none;
     	list-style: none;
     	float:right;
-    	font-size: 1.05em;
+    	font-size: 1em;
 	}
 	#p-personal h5 {
 		display: none;
@@ -213,6 +213,7 @@ div#mw-head h5 {
 	}
 	#p-pdropdown{
 		float:right;
+		font-size:1em;
 	}
 	/* @noflip */
 	/*#p-personal li {
@@ -236,13 +237,13 @@ div#mw-head h5 {
 		position: absolute;
 		left: 14em;
 		top: 0;
-		font-size:1.05em;
+		font-size:1em;
 	}
 	#right-navigation {
 		position:absolute;
 		left:28em;
 		top:0;
-		font-size:1.05em;
+		font-size:1em;
 	}
 	/* Navigation Labels */
 	div.uniformTabs h5,
@@ -382,7 +383,7 @@ div#mw-head h5 {
 	div.uniformMenu h5 a {
 		display: inline-block;
 		width: 2em;
-		height: 3em;
+		height: 2.85em;
 		text-decoration: none;
 		/* @embed */
 		background-image: none;
