@@ -437,6 +437,7 @@ class UniformTemplate extends BaseTemplate {
 	<ul>
 		<?php echo $p['dropdown'] ?>
 	</ul>
+	</div>
 </div>
 	<?php endif; ?>
 	<?php /*foreach( $this->getPersonalTools() as $key => $item ) { ?>
