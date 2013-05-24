@@ -197,10 +197,11 @@ div#mw-head h5 {
 	#p-personal {
 		position: absolute;
     	top: 0;
-    	right:0;
+    	right:2em;
     	text-transform:none;
     	list-style: none;
     	float:right;
+    	font-size: 1.05em;
 	}
 	#p-personal h5 {
 		display: none;
@@ -209,6 +210,9 @@ div#mw-head h5 {
 		list-style: none;
 		margin: 0;
 		padding-left: 14em;
+	}
+	#p-pdropdown{
+		float:right;
 	}
 	/* @noflip */
 	/*#p-personal li {
@@ -377,7 +381,7 @@ div#mw-head h5 {
 	/* @noflip */
 	div.uniformMenu h5 a {
 		display: inline-block;
-		width: 1.5em;
+		width: 2em;
 		height: 3em;
 		text-decoration: none;
 		/* @embed */
@@ -916,7 +920,7 @@ div#content .printfooter {
 #pt-login {
 	/* @embed */
 	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAORJREFUeNqcUjEOgzAMjDqwkpkpT/ET8oRurDwhT8gT+oRMVbf2CXlCxo5ITEyujRJEg1FRT7oBx6ezfShEVDUJnoiZN7FHEF03okJX913UHlaoQV2QhKcgCYNQi7vKwXEem/3eRH1qx77vn+Wj67o7NVrRkWByBC8CxhjXi4YQMKWEeVzuMWschFQajTE4jiM659BaiwwA2EaTsmZx+8ptGIZFME0Teu9RyNWUjHaP7DrPM2qtJSGIOdKIqm1b1TSNIvfDLEFy4xF5TwbvXTuKQj5GGZEPJI16uOMPwt//6keAAQB0BfLrIj/OrQAAAABJRU5ErkJggg==') .6em center no-repeat;
-	padding-left: 2em !important;
+	padding-left: 1.1em !important;
 	text-transform: none;
 }
 
