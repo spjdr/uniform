@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5,h6 {
  	overflow:hidden;
  	padding-top:.5em;
  	padding-bottom:.17em;
- 	border-bottom:none; /*Test, så vi kan se hvordan det fungerer uden i forhold til at det bryder sidens flow.*/	
+ 	border-bottom:none;
  	width:auto;
 }
 h1,h2{
@@ -211,22 +211,22 @@ div#mw-head h5 {
 		padding-left: 14em;
 	}
 	/* @noflip */
-	#p-personal li {
+	/*#p-personal li {
 		line-height: 1.125em;
 		float: left;
 	}
 
 	#p-personal div:hover ul{
 		display: block;
-	}
+	}*/
 
 	/* This one flips! */
-	#p-personal li {
+	/*#p-personal li {
 		margin-left: 0.75em;
 		margin-top: 0.5em;
 		font-size: 0.75em;
 		white-space: nowrap;
-	}
+	}*/
 	/* Navigation Containers */
 	#left-navigation {
 		position: absolute;
@@ -395,7 +395,7 @@ div#mw-head h5 {
 		position: relative;
 		display: none;
 		clear: both;
-		text-align: left;
+		text-align: right;
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
 	/* @noflip */
@@ -447,7 +447,7 @@ div#mw-head h5 {
 	div.uniformMenu li {
 		padding: 0;
 		margin: 0;
-		text-align: left;
+		text-align: right;
 		line-height: 1em;
 	}
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
