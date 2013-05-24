@@ -205,49 +205,13 @@ div#mw-head h5 {
 	#p-personal h5 {
 		display: none;
 	}
-	/* NEW CODE */
-	div#p-personal ul {
-	    background: #f1f1f1;
-	    margin:0;
-	    padding: 0;
-	    list-style: none;
-	}
-	div > ul > li {
-	    display: inline-block;
-	    position: relative;
-	    padding: .6em 1em;
-	    cursor: pointer;
-	}
-	div li#p-personal-dropdown ul {
-	    position: absolute;
-	    top: 100%;
-	    right: 0;
-	    background: #CCC;
-	    padding: 0 0;
-	    display:none;
-	    white-space:nowrap;
-	    text-align:right;
-	    list-style: none;
-	}
-	div > ul > li#p-personal-dropdown:hover ul,
-	div > ul > li#p-personal-dropdown:active ul {
-	    display: block;
-	}
-	li#p-personal-dropdown li{
-	    padding: 0.30em 1em;
-	}
-	li#p-personal-dropdown {
-	     background: url(http://beta.spjdrpedia.dk/w/skins/uniform/images/arrow-down-icon.png) no-repeat center center;
-	}
-
-	/* OLD CODE */
-	/*#p-personal ul {
+	#p-personal ul {
 		list-style: none;
 		margin: 0;
 		padding-left: 14em;
 	}
 	/* @noflip */
-	/*#p-personal li {
+	#p-personal li {
 		line-height: 1.125em;
 		float: left;
 	}
@@ -257,12 +221,12 @@ div#mw-head h5 {
 	}
 
 	/* This one flips! */
-	/*#p-personal li {
+	#p-personal li {
 		margin-left: 0.75em;
 		margin-top: 0.5em;
 		font-size: 0.75em;
 		white-space: nowrap;
-	} */
+	}
 	/* Navigation Containers */
 	#left-navigation {
 		position: absolute;
@@ -272,7 +236,7 @@ div#mw-head h5 {
 	}
 	#right-navigation {
 		position:absolute;
-		left:34em;
+		left:28em;
 		top:0;
 		font-size:1.05em;
 	}
@@ -413,7 +377,7 @@ div#mw-head h5 {
 	/* @noflip */
 	div.uniformMenu h5 a {
 		display: inline-block;
-		width: 3em;
+		width: 1.5em;
 		height: 3em;
 		text-decoration: none;
 		/* @embed */
@@ -457,6 +421,7 @@ div#mw-head h5 {
 	}
 	div.uniformMenu ul {
 		position: absolute;
+		right:0;
 		background-color: white;
 		border: solid 1px silver;
 		border-top-width: 0;
@@ -466,7 +431,7 @@ div#mw-head h5 {
 		padding: 0;
 		margin: 0;
 		margin-left: -1px;
-		text-align: left;
+		text-align: right;
 	}
 	/* Fixes old versions of FireFox */
 	div.uniformMenu ul,
