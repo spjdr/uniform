@@ -74,9 +74,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family:'IstokWeb',sans-serif;
-	font-size: 1em;
-}
-body {
+	font-size: 100%;
 	background-color: #e7e7e7;
 	background-repeat: repeat;
 	/* @embed */
@@ -147,7 +145,7 @@ h3,h4,h5{
 p{
 	margin:.4em 0 .5em 0;
 	line-height:1.5em;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 p img{
 	margin:0
@@ -201,7 +199,6 @@ div#mw-head h5 {
     	text-transform:none;
     	list-style: none;
     	float:right;
-    	font-size: 1em;
 	}
 	#p-personal h5 {
 		display: none;
@@ -213,7 +210,6 @@ div#mw-head h5 {
 	}
 	#p-pdropdown{
 		float:right;
-		font-size:1em;
 	}
 	/* @noflip */
 	/*#p-personal li {
@@ -237,13 +233,11 @@ div#mw-head h5 {
 		position: absolute;
 		left: 14em;
 		top: 0;
-		font-size:1em;
 	}
 	#right-navigation {
 		position:absolute;
 		left:28em;
 		top:0;
-		font-size:1em;
 	}
 	/* Navigation Labels */
 	div.uniformTabs h5,
@@ -428,7 +422,7 @@ div#mw-head h5 {
 		position: absolute;
 		right:0;
 		background-color: white;
-		border: solid 1px silver;
+		border: solid 1px #E1E1E1;
 		border-top-width: 0;
 		list-style: none;
 		list-style-image: none;
@@ -458,7 +452,7 @@ div#mw-head h5 {
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
 	div.uniformMenu li a {
 		display: inline-block;
-		padding: 0.5em;
+		padding: 0.7em 1em;
 		white-space: nowrap;
 		color: #0645ad;
 		cursor: pointer;
@@ -921,7 +915,7 @@ div#content .printfooter {
 #pt-login {
 	/* @embed */
 	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAORJREFUeNqcUjEOgzAMjDqwkpkpT/ET8oRurDwhT8gT+oRMVbf2CXlCxo5ITEyujRJEg1FRT7oBx6ezfShEVDUJnoiZN7FHEF03okJX913UHlaoQV2QhKcgCYNQi7vKwXEem/3eRH1qx77vn+Wj67o7NVrRkWByBC8CxhjXi4YQMKWEeVzuMWschFQajTE4jiM659BaiwwA2EaTsmZx+8ptGIZFME0Teu9RyNWUjHaP7DrPM2qtJSGIOdKIqm1b1TSNIvfDLEFy4xF5TwbvXTuKQj5GGZEPJI16uOMPwt//6keAAQB0BfLrIj/OrQAAAABJRU5ErkJggg==') .6em center no-repeat;
-	padding-left: 1.1em !important;
+	padding-left: 1.2em !important;
 	text-transform: none;
 }
 
