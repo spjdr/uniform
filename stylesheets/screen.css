@@ -482,7 +482,7 @@ div#mw-head h5 {
 	#ca-view span a {
 	   background-position: left center;
 	   	/* @embed */
-	   background-image:  url(skins/uniform/icons/view.png);
+	   background-image: url(skins/uniform/icons/view.png);
 	   background-repeat: no-repeat;
 	   padding-left: 1.65em;
 	}
@@ -506,6 +506,7 @@ div#mw-head h5 {
 	   background-position: left center;
 	   	/* @embed */
  	   background-image: url(skins/uniform/icons/talk.png);
+	   background-repeat: no-repeat;
 	   padding-left: 2em;	
 	}
 	
@@ -926,7 +927,7 @@ div#content .printfooter {
 #pt-anonuserpage,
 #pt-login {
 	/* @embed */
-	background:  url(skins/uniform/icons/user.png); .6em center no-repeat;
+	background: url(skins/uniform/icons/user.png) .6em center no-repeat;
 	padding-left: 1.2em !important;
 	text-transform: none;
 }
