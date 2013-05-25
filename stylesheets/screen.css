@@ -497,7 +497,8 @@ div#mw-head h5 {
 	
 	#ca-history span a {
 	   background-position: left center;
-	   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeNpiZEADtgb6DkAKhO2hNAgcAOKDIPrwhYsHkNUz4tBACMANBBnwn4ECwMRAIWABYkeKvECNQPyPTwEhC3AFItxAKB+nFymPxtEwoDwMAAIMAEi6Ru+BJ/rRAAAAAElFTkSuQmCC');
+	   	/* @embed */
+	   background-image: url(skins/uniform/icons/history.png);
 	   background-repeat: no-repeat;
 	   padding-left: 2em;	
 	}
