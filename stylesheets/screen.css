@@ -8,7 +8,7 @@
  * a rule that makes things work in IE6, and then following it with a rule that begins with
  * "html > body" or use a child selector ">", which is ignored by IE6 because it does not support
  * the child selector. You can spot this by looking for the "OVERRIDDEN BY COMPLIANT BROWSERS" and
- * "IGNORED BY IE6" comments.
+ * "IGNORED BY IE6" comments
  */
 
 /* Custom font via Fontface */
@@ -420,7 +420,6 @@ div#mw-head h5 {
 	}
 	div.uniformMenu ul {
 		position: absolute;
-		right:0;
 		background-color: white;
 		border: solid 1px #E1E1E1;
 		border-top-width: 0;
@@ -468,9 +467,13 @@ div#mw-head h5 {
 		text-decoration: none;
 	}
 	
-	/* Right align p-personal*/
+	/* Right align p-personal overrides by specificity*/
  	
- 	div.uniformMenu#p-dropdown li {
+ 	body div#p-dropdown ul {
+ 		right: 0;	
+ 	}
+ 	
+ 	body div#p-dropdown li {
  		text-align: right;
  	}
 	
