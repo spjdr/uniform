@@ -469,11 +469,11 @@ div#mw-head h5 {
 	
 	/* Right align p-personal overrides by specificity*/
  	
- 	body div#p-dropdown ul {
+ 	body div#p-pdropdown ul {
  		right: 0;	
  	}
  	
- 	body div#p-dropdown li {
+ 	body div#p-pdropdown li {
  		text-align: right;
  	}
 	
