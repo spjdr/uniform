@@ -834,7 +834,14 @@ div#content {
 .editsection {
 	float: right;
 }
-
+/* TOC */
+#toc h5, .toc h5 {
+display: inline;
+border: none;
+padding: 0;
+font-size: 100%;
+font-weight: bold;
+}
 ul {
 	/* @embed */
 	list-style-image: url(skins/uniform/images/bullet-icon.png);
