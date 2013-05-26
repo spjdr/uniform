@@ -93,6 +93,8 @@ h1,h2,h3,h4,h5,h6 {
 h1,h2{
  	font-family:'Bitter',sans-serif;
  	border-bottom:1px solid #c4c4c4;
+ 	margin-bottom:.4em;
+ 	padding-bottom: 2em;
 }
 h1{
 	font-size:188%
@@ -119,6 +121,9 @@ h3{
 h3 .editsection{
 	font-size:76%;
 }
+h3,h4,h5{
+	margin-bottom:.3em
+}
 h4{
 	font-size:116%
 }
@@ -135,12 +140,6 @@ h6{
 }
 h6 .editsection{
 	font-size:125%
-}
-h1,h2{
-	margin-bottom:.6em
-}
-h3,h4,h5{
-	margin-bottom:.3em
 }
 p{
 	margin:.4em 0 .5em 0;
@@ -854,6 +853,7 @@ pre {
 	margin-top: 0;
 	padding-top: 0;
 	font-size: 1.6em;
+	border-bottom:none;
 }
 div#content a.external,
 div#content a.external[href ^="gopher://"] {
