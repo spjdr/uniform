@@ -855,11 +855,14 @@ pre {
 	line-height: 1.3em;
 }
 /* Artikelbilleder */
+div.tleft {
+	margin: 0 2em 0 0;
+}
 div.tright {
-	margin: 0 0 2.5em 2em;
+	margin: 0 0 0 2em;
 }
 div.thumb {
-	margin-bottom: .5em;
+	margin-bottom: 1.5em;
 	width: auto;
 	background-color: rgba(255, 255, 255, 0);
 }
@@ -872,8 +875,8 @@ table.floatright {
 	/* Billede, billedtekst og ikoner */
 	div.thumbinner {
 		border: none;
-		padding: none !important;
-		background-color: none;
+		padding: 0 !important;
+		background: none;
 		font-size: 100%;
 		text-align: center;
 		overflow: hidden;
@@ -897,7 +900,7 @@ table.floatright {
 		border: none;
 		background: #F0F0F0;
 		line-height: 1.4em;
-		padding: 3px !important;
+		padding: 0.6em !important;
 		font-size: 100%;
 	}
 	.mw-content-ltr 
