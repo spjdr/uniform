@@ -860,7 +860,7 @@ div.tright {
 }
 div.thumb {
 	margin-bottom: .5em;
-	width: 200px;
+	width: auto;
 	background-color: rgba(255, 255, 255, 0);
 }
 div.tright, 
@@ -872,8 +872,8 @@ table.floatright {
 	/* Billede, billedtekst og ikoner */
 	div.thumbinner {
 		border: none;
-		padding: none;
-		background-color: #F0F0F0;
+		padding: none !important;
+		background-color: none;
 		font-size: 100%;
 		text-align: center;
 		overflow: hidden;
@@ -881,9 +881,9 @@ table.floatright {
 	.thumbinner {
 		min-width: 100px;
 	}
-	.thumbimage {
+	html .thumbimage {
 		border: none;
-		background: #F0F0F0;
+		background: none;
 	}
 	img {
 		border: none;
@@ -893,8 +893,9 @@ table.floatright {
 	.thumbcaption {
 		text-align: left;
 	}
-	.thumbcaption {
+	html .thumbcaption {
 		border: none;
+		background: #F0F0F0;
 		line-height: 1.4em;
 		padding: 3px !important;
 		font-size: 100%;
