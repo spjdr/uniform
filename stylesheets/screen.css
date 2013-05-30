@@ -661,7 +661,7 @@ div#mw-panel {
 div#footer {
 	margin-left: 14em;
 	margin-top: 0;
-	padding: 1em 1.5em;
+	padding: 1em 1.5em 0.5em;
 	background: #ececec;
 	/* @embed */
 	background-image: none;
@@ -687,7 +687,7 @@ div#footer #footer-icons {
 }
 /* @noflip */
 body.ltr div#footer #footer-places {
-	float: left;
+	float: none;
 }
 div#footer #footer-info li {
 	line-height: 1.4em;
@@ -695,12 +695,12 @@ div#footer #footer-info li {
 }
 div#footer #footer-icons li {
 	float: left;
-	margin-left: 0.5em;
+	margin-right: 0.5em;
 	line-height: 2em;
-	text-align: right;
+	text-align: left;
 }
 div#footer #footer-places li {
-	float: left;
+	float: none;
 	margin-right: 1em;
 	line-height: 2em;
 }
@@ -874,7 +874,7 @@ table.floatright {
 }
 	/* Billede, billedtekst og ikoner */
 	div.thumbinner {
-		border: none;
+		border: 1px solid #F0F0F0;
 		padding: 0 !important;
 		background: none;
 		font-size: 100%;
