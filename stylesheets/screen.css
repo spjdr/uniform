@@ -677,13 +677,14 @@ div#footer ul {
 div#footer ul li {
 	margin: 0;
 	padding: 0;
-	padding-top: 0.5em;
+	padding-top: 0;
 	padding-bottom: 0.5em;
 	color: #333333;
-	font-size: 0.7em;
+	font-size: 80%;
 }
 div#footer #footer-icons {
-	float: right;
+	float: left;
+	clear: left;
 }
 /* @noflip */
 body.ltr div#footer #footer-places {
@@ -700,7 +701,7 @@ div#footer #footer-icons li {
 	text-align: left;
 }
 div#footer #footer-places li {
-	float: none;
+	float: left;
 	margin-right: 1em;
 	line-height: 2em;
 }
