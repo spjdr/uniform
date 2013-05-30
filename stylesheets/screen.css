@@ -611,7 +611,7 @@ div#mw-head h5 {
 /* Panel */
 div#mw-panel {
 	position: absolute;
-	top: 12em;
+	top: 11.5em;
 	margin: 1.5em 2em 1.5em 0em;
 	padding-bottom: 1em;
 	width: 12em;
@@ -837,7 +837,7 @@ div#content {
 .editsection {
 	float: right;
 }
-/* TOC */
+/* Indholdsfortegnelse - Table of Contents */
 #toc h2, .toc h2 {
 display: inline;
 border: none;
@@ -854,6 +854,65 @@ ul {
 pre {
 	line-height: 1.3em;
 }
+/* Artikelbilleder */
+div.tright {
+	margin: 0 0 2.5em 2em;
+}
+div.thumb {
+	margin-bottom: .5em;
+	width: 200px;
+	background-color: rgba(255, 255, 255, 0);
+}
+div.tright, 
+div.floatright, 
+table.floatright {
+	clear: right;
+	float: right;
+}
+	/* Billede, billedtekst og ikoner */
+	div.thumbinner {
+		border: none;
+		padding: none;
+		background-color: #F0F0F0;
+		font-size: 100%;
+		text-align: center;
+		overflow: hidden;
+	}
+	.thumbinner {
+		min-width: 100px;
+	}
+	.thumbimage {
+		border: none;
+		background: #F0F0F0;
+	}
+	img {
+		border: none;
+		vertical-align: middle;
+	}
+	.mw-content-ltr 
+	.thumbcaption {
+		text-align: left;
+	}
+	.thumbcaption {
+		border: none;
+		line-height: 1.4em;
+		padding: 3px !important;
+		font-size: 100%;
+	}
+	.mw-content-ltr 
+	.magnify {
+	float: right;
+	}
+	div.magnify {
+	border: none !important;
+	background: none !important;
+	}
+	div.magnify a, 
+	div.magnify img {
+		display: block;
+		border: none !important;
+		background: none !important;
+	}
 
 /* Site Notice (includes notices from CentralNotice extension) */
 #siteNotice {
