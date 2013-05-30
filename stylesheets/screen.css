@@ -152,9 +152,8 @@ p img{
 
 /* Content */
 div#content {
-	margin-left: 13.3em;
+	margin-left: 14em;
 	padding: 1em 1.5em;
-	font-size:105%;
 	/* @embed */
 	background: white;
 	color: black;
@@ -614,12 +613,13 @@ div#mw-panel {
 	position: absolute;
 	top: 12em;
 	margin: 1.5em 2em 1.5em 0em;
+	padding-bottom: 1em;
 	width: 12em;
 	left: 0;
 	background:#fff;
 }
 	div#mw-panel div.portal {
-		padding: 1em 1em 1em 1.5em;
+		padding: 1.4em 1em 0em 1.5em;
 		direction: ltr;
 	}
 	div#mw-panel div.portal h5 {
@@ -707,10 +707,10 @@ div#footer #footer-places li {
 /* Logo */
 #p-logo {
 	position: absolute;
-	top: -180px;
-	left: 0;
+	top: -12em;
+	left: 1em;
 	width: 11em;
-	height: 160px;
+	height: 11em;
 }
 #p-logo a {
 	display: block;
@@ -831,7 +831,7 @@ div#content {
 	line-height: 1.5em;
 }
 #bodyContent {
-	font-size: 0.8em;
+	font-size: 85%;
 }
 
 .editsection {
