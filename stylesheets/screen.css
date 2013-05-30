@@ -97,13 +97,13 @@ h1,h2{
  	padding-bottom:.3em;
 }
 h1{
-	font-size:188%
+	font-size:178%
 }
 h1 .editsection{
 	font-size:53%
 }
 h2{
-	font-size:150%
+	font-size:142%
 }
 h2 .editsection{
 	font-size:67%
@@ -116,7 +116,7 @@ h3 .editsection,h4 .editsection,h5 .editsection,h6 .editsection{
 	font-weight:normal
 }
 h3{
-	font-size:132%
+	font-size:122%
 }
 h3 .editsection{
 	font-size:76%;
@@ -125,7 +125,7 @@ h3,h4,h5{
 	margin-bottom:.3em
 }
 h4{
-	font-size:116%
+	font-size:110%
 }
 h4 .editsection{
 	font-size:86%
@@ -136,7 +136,7 @@ h5{
 h5 .editsection{
 }
 h6{
-	font-size:80%
+	font-size:90%
 }
 h6 .editsection{
 	font-size:125%
