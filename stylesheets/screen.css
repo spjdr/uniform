@@ -987,6 +987,7 @@ div#content a.external[href $=".ogm"], div#content a.external[href $=".OGM"],
 div#content a.external[href $=".avi"], div#content a.external[href $=".AVI"],
 div#content a.external[href $=".mpeg"], div#content a.external[href $=".MPEG"],
 div#content a.external[href $=".mpg"], div#content a.external[href $=".MPG"],
+div#content a.external[href $=".mp4"], div#content a.external[href $=".MP4"],
 .link-video {
 	/* @embed */
 	background: url(skins/uniform/images/video-icon.png) center right no-repeat;
