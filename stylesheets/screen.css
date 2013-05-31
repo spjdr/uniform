@@ -693,6 +693,7 @@ body.ltr div#footer #footer-places {
 div#footer #footer-info li {
 	line-height: 1.4em;
 	display:inline-block;
+	margin-right: 1em;
 }
 div#footer #footer-icons li {
 	float: left;
@@ -918,6 +919,11 @@ table.floatright {
 		border: none !important;
 		background: none !important;
 	}
+	/* Fix af tabeller på oversigtssider */
+	.mw-specialpages-table {
+		margin-top: 0em;
+		margin-bottom: 1em;
+	}
 
 /* Site Notice (includes notices from CentralNotice extension) */
 #siteNotice {
@@ -933,7 +939,7 @@ table.floatright {
 div#content a.external,
 div#content a.external[href ^="gopher://"] {
 	/* @embed */
-	background: url(skins/uniform/images/external-link-ltr-icon.png) center right no-repeat;
+	background: url(skins/uniform/images/external-link-ltr-icon.png) 100% 20% no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href ^="https://"],
@@ -1077,4 +1083,39 @@ div.uniformTabs ul {
 /* Tooltips are outside of the normal body code, so this helps make the size of the text sensible */
 .tipsy {
 	font-size: 0.8em;
+}
+
+/* Kategori-links */
+#catlinks {
+text-align: left;
+}
+.catlinks {
+border: none;
+border-left: 8px solid #C4C4C4;
+background-color: #F0F0F0;
+padding: 0.8em 1em;
+margin-top: 1em;
+clear: both;
+}
+.catlinks ul {
+display: inline;
+margin: 0;
+padding: 0;
+list-style: none;
+list-style-type: none;
+list-style-image: none;
+vertical-align: middle !ie;
+}
+.catlinks li:first-child {
+padding-left: 0.25em;
+border-left: none;
+}
+.catlinks li {
+display: inline-block;
+line-height: 1.25em;
+border-left: 1px solid #AAA;
+margin: 0;
+padding: 0 0.5em;
+zoom: 1;
+display: inline !ie;
 }
