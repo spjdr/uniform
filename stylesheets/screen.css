@@ -662,7 +662,8 @@ div#footer {
 	margin-left: 14em;
 	margin-top: 0;
 	padding: 1em 1.5em 0.5em;
-	background: #ececec;
+	border-top:1px solid #F0F0F0;
+	background: rgba(255, 255, 255, 0.5);
 	/* @embed */
 	background-image: none;
 	direction: ltr;
@@ -939,7 +940,7 @@ table.floatright {
 div#content a.external,
 div#content a.external[href ^="gopher://"] {
 	/* @embed */
-	background: url(skins/uniform/images/external-link-ltr-icon.png) 100% 20% no-repeat;
+	background: url(skins/uniform/images/external-link-ltr-icon.png) 96% 20% no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href ^="https://"],
