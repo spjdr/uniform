@@ -142,7 +142,7 @@ h6 .editsection{
 	font-size:125%
 }
 p{
-	margin:.4em 0 .5em 0;
+	margin:.8em 0 .8em 0;
 	line-height:1.5em;
 	font-size: 1em;
 }
@@ -940,7 +940,7 @@ table.floatright {
 div#content a.external,
 div#content a.external[href ^="gopher://"] {
 	/* @embed */
-	background: url(skins/uniform/images/external-link-ltr-icon.png) 96% 20% no-repeat;
+	background: url(skins/uniform/images/external-link-ltr-icon.png) center right no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href ^="https://"],
