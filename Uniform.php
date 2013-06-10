@@ -22,8 +22,6 @@ $wgValidSkinNames['uniform'] = 'Uniform';
 $wgAutoloadClasses['SkinUniform'] = dirname(__FILE__).'/Uniform.skin.php';
 $wgExtensionMessagesFiles['Uniform'] = dirname(__FILE__).'/Uniform.i18n.php';
 
-var_dump(&$GLOBALS['wgStylePath']);
-
 $wgResourceModules['skins.uniform'] = array(
         'styles' => array(
                 'common/commonElements.css' => array( 'media' => 'screen' ),                                                                     
