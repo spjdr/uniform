@@ -14,55 +14,55 @@
 /* Custom font via Fontface */
 @font-face {
 	font-family: 'Bitter';
-	src: url('/skins/uniform/type/Bitter-Regular-webfont.eot');
-	src: url('/skins/uniform/type/Bitter-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-		url('/skins/uniform/type/Bitter-Regular-webfont.woff') format('woff'),
-		url('/skins/uniform/type/Bitter-Regular-webfont.ttf') format('truetype'),
-		url('/skins/uniform/type/Bitter-Regular-webfont.svg#BitterRegular') format('svg');
+	src: url('/w/skins/uniform/type/Bitter-Regular-webfont.eot');
+	src: url('/w/skins/uniform/type/Bitter-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/w/skins/uniform/type/Bitter-Regular-webfont.woff') format('woff'),
+		url('/w/skins/uniform/type/Bitter-Regular-webfont.ttf') format('truetype'),
+		url('/w/skins/uniform/type/Bitter-Regular-webfont.svg#BitterRegular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
     font-family: 'IstokWeb';
-    src: url('/skins/uniform/type/IstokWeb-Regular-webfont.eot');
-    src: url('/skins/uniform/type/IstokWeb-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/skins/uniform/type/IstokWeb-Regular-webfont.woff') format('woff'),
-         url('/skins/uniform/type/IstokWeb-Regular-webfont.ttf') format('truetype'),
-         url('/skins/uniform/type/IstokWeb-Regular-webfont.svg#IstokWebRegular') format('svg');
+    src: url('/w/skins/uniform/type/IstokWeb-Regular-webfont.eot');
+    src: url('/w/skins/uniform/type/IstokWeb-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/w/skins/uniform/type/IstokWeb-Regular-webfont.woff') format('woff'),
+         url('/w/skins/uniform/type/IstokWeb-Regular-webfont.ttf') format('truetype'),
+         url('/w/skins/uniform/type/IstokWeb-Regular-webfont.svg#IstokWebRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'IstokWeb';
-    src: url('/skins/uniform/type/IstokWeb-Bold-webfont.eot');
-    src: url('/skins/uniform/type/IstokWeb-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/skins/uniform/type/IstokWeb-Bold-webfont.woff') format('woff'),
-         url('/skins/uniform/type/IstokWeb-Bold-webfont.ttf') format('truetype'),
-         url('/skins/uniform/type/IstokWeb-Bold-webfont.svg#IstokWebBold') format('svg');
+    src: url('/w/skins/uniform/type/IstokWeb-Bold-webfont.eot');
+    src: url('/w/skins/uniform/type/IstokWeb-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/w/skins/uniform/type/IstokWeb-Bold-webfont.woff') format('woff'),
+         url('/w/skins/uniform/type/IstokWeb-Bold-webfont.ttf') format('truetype'),
+         url('/w/skins/uniform/type/IstokWeb-Bold-webfont.svg#IstokWebBold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'IstokWeb';
-    src: url('/skins/uniform/type/IstokWeb-Italic-webfont.eot');
-    src: url('/skins/uniform/type/IstokWeb-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/skins/uniform/type/IstokWeb-Italic-webfont.woff') format('woff'),
-         url('/skins/uniform/type/IstokWeb-Italic-webfont.ttf') format('truetype'),
-         url('/skins/uniform/type/IstokWeb-Italic-webfont.svg#IstokWebItalic') format('svg');
+    src: url('/w/skins/uniform/type/IstokWeb-Italic-webfont.eot');
+    src: url('/w/skins/uniform/type/IstokWeb-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/w/skins/uniform/type/IstokWeb-Italic-webfont.woff') format('woff'),
+         url('/w/skins/uniform/type/IstokWeb-Italic-webfont.ttf') format('truetype'),
+         url('/w/skins/uniform/type/IstokWeb-Italic-webfont.svg#IstokWebItalic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'IstokWeb';
-    src: url('/skins/uniform/type/IstokWeb-BoldItalic-webfont.eot');
-    src: url('/skins/uniform/type/IstokWeb-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/skins/uniform/type/IstokWeb-BoldItalic-webfont.woff') format('woff'),
-         url('/skins/uniform/type/IstokWeb-BoldItalic-webfont.ttf') format('truetype'),
-         url('/skins/uniform/type/IstokWeb-BoldItalic-webfont.svg#IstokWebBoldItalic') format('svg');
+    src: url('/w/skins/uniform/type/IstokWeb-BoldItalic-webfont.eot');
+    src: url('/w/skins/uniform/type/IstokWeb-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/w/skins/uniform/type/IstokWeb-BoldItalic-webfont.woff') format('woff'),
+         url('/w/skins/uniform/type/IstokWeb-BoldItalic-webfont.ttf') format('truetype'),
+         url('/w/skins/uniform/type/IstokWeb-BoldItalic-webfont.svg#IstokWebBoldItalic') format('svg');
     font-weight: bold;
     font-style: italic;
 }
