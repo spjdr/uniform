@@ -27,7 +27,7 @@ $wgResourceModules['skins.uniform'] = array(
                 'common/commonElements.css' => array( 'media' => 'screen' ),                                                                     
                 'common/commonContent.css' => array( 'media' => 'screen' ),                                                                      
                 'common/commonInterface.css' => array( 'media' => 'screen' ), 
-                'uniform/stylesheets/screen.css' => array( 'media' => 'screen' )
+                'uniform/screen.css' => array( 'media' => 'screen' )
         ),
         'scripts' => 'uniform/scripts/uniform.js',
         'remoteBasePath' => &$GLOBALS['wgStylePath'],
