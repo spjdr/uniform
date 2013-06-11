@@ -306,6 +306,7 @@ div#mw-head h5 {
 	}
 	div.uniformTabs span {
 		display: inline-block;
+		padding-right:0.8em;
 	}
 	div.uniformTabs li.selected a,
 	div.uniformTabs li.selected a:visited{
@@ -499,7 +500,7 @@ div#mw-head h5 {
 	#ca-nstab-main span a {
 		background-position: left center;
 		/* @embed */
-		background-image: url(icons/nstab-main.png)
+		background-image: url(icons/nstab-main.png);
 		background-repeat: no-repeat;
 		padding-left: 1.65em;
 	}
