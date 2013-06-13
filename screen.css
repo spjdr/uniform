@@ -78,7 +78,7 @@ body {
 	background-color: #e7e7e7;
 	background-repeat: repeat;
 	/* @embed */
-	background-image: url(images/gplaypattern.png); /* Baggrund til identitet */
+	background-image: url(images/background.png); /* Baggrund til identitet */
 }
 h1,h2,h3,h4,h5,h6 {
  	color:black;
@@ -153,7 +153,7 @@ p img{
 /* Content */
 div#content {
 	margin-left: 14em;
-	padding: 1em 1.5em;
+	padding: 1.5em;
 	/* @embed */
 	background: white;
 	color: black;
@@ -851,10 +851,9 @@ div.tleft {
 	margin: 0 2em 0 0;
 }
 div.tright {
-	margin: 0 0 0 2em;
+	margin: 0 0 1.5em 1.5em;
 }
 div.thumb {
-	margin-bottom: 1.5em;
 	width: auto;
 	background-color: rgba(255, 255, 255, 0);
 }
