@@ -3,9 +3,21 @@ Uniform
 
 A distinctive MediaWiki skin for SPJDRpedia based on the MediaWiki Vector skin.
 
+## Adding uniform to your wiki
 
-## Til Udviklere
+Clone this repository into the skins subfolder of your MediaWiki directory. If you use git, you can do it with the line
 
+    git clone git://github.com/spjdr/uniform.git
+
+Then add the following line to LocalSettings.php.
+
+    require_once("$IP/skins/uniform/Uniform.php");
+
+Uniform should then be added to the list of possible skins available to users in their private settings. You can also choose to set Uniform as the defualt skin by adding the line,
+
+    $wgDefaultSkin = 'uniform';
+
+## Til udviklere
 
 ### Stylesheets og JavaScripts
 
