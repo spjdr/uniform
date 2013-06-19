@@ -80,10 +80,6 @@ body {
 	/* @embed */
 	background-image: url(images/background.png); /* Baggrund til identitet */
 }
-/* Content width */
-h1,h2,p, li{
-	max-width: 52.5em;
-}
 h1,h2,h3,h4,h5,h6 {
  	color:black;
  	background:none;
@@ -958,7 +954,7 @@ table.floatright {
 div#content a.external,
 div#content a.external[href ^="gopher://"] {
 	/* @embed */
-	background: url(images/external-link-ltr-icon.png) center right no-repeat;
+	background: url(images/external-link-ltr-icon.png) top right no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href ^="https://"],
