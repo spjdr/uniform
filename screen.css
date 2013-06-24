@@ -161,6 +161,9 @@ div#content {
 	background: white;
 	color: black;
 	direction: ltr;
+	min-height: 25em;
+	/*Overskrives af nyere browsere*/
+	min-height: calc(100% - 15em);
 }
 /* Head */
 #mw-page-base {
