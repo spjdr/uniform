@@ -288,6 +288,12 @@ div#mw-head h5 {
 		cursor: pointer;
 		font-size: 0.8em;
 	}
+	div.uniformTabs li a:hover,
+	div.uniformTabs li a:focus{
+		text-decoration: none;
+		border-bottom:1px solid #0645ad;
+	}
+
 	/* IGNORED BY IE6 */
 	div.uniformTabs li > a {
 		display: block;
@@ -313,12 +319,18 @@ div#mw-head h5 {
 	}
 	div.uniformTabs li.selected a,
 	div.uniformTabs li.selected a:visited{
-		color: #333333; /* Farve: Selv-refererende links */
+		color: #333333; /* Farve: Selv-refererende links i artikel-nav */
 		text-decoration: none;
+		bottom-border:1px solid #333333;
 	}
 	div.uniformTabs li.new a,
 	div.uniformTabs li.new a:visited{
-		color: #a55858; /* Farve: Links til ikke-oprettede sider */
+		color: #a55858; /* Farve: Links til ikke-oprettede sider i artikel-nav */
+	}
+	div.uniformTabs li.new a:hover,
+	div.uniformTabs li.new a:focus{
+		text-decoration: none;
+		border-bottom: 1px solid #a55858;
 	}
 	/* Variants and Actions */
 	/* @noflip */
@@ -954,7 +966,7 @@ table.floatright {
 div#content a.external,
 div#content a.external[href ^="gopher://"] {
 	/* @embed */
-	background: url(images/external-link-ltr-icon.png) top right no-repeat;
+	background: url(images/external-link-ltr-icon.png) center right no-repeat;
 	padding-right: 13px;
 }
 div#content a.external[href ^="https://"],
@@ -1137,7 +1149,7 @@ zoom: 1;
 display: inline !ie;
 }
 /* Styling af widgets*/
-div .ui-widget {
+.ui-widget {
 	font-family: 'IstokWeb',Verdana,sans-serif;
 	font-size: 100%;
 }
