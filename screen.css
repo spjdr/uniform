@@ -321,7 +321,7 @@ div#mw-head h5 {
 	div.uniformTabs li.selected a:visited{
 		color: #333333; /* Farve: Selv-refererende links i artikel-nav */
 		text-decoration: none;
-		bottom-border:1px solid #333333;
+		border-bottom:1px solid #333333;
 	}
 	div.uniformTabs li.new a,
 	div.uniformTabs li.new a:visited{
