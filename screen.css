@@ -173,8 +173,8 @@ div#content {
 div#mw-head {
 	position: absolute;
 	top: 0;
-	right: 0;
 	width: 100%;
+	min-width: 54.5em; /* Forhindrer kollision med artikel-værktøjer*/
 }
 div#mw-head h5 {
 	margin: 0;
@@ -208,13 +208,17 @@ div#mw-head h5 {
 	/* Navigation Containers */
 	#left-navigation {
 		position: absolute;
-		left: 15.5em;
 		top: 0;
+		left: 14em;
+		margin-left:1.5em;
 	}
 	#right-navigation {
 		position:absolute;
-		left:27.5em; /* Min. afstand for at undgå kollision med left-navigation på specialsider*/
 		top:0;
+		left:14em;
+		margin-left:14.5; /* Min. afstand for at undgå kollision med left-navigation på specialsider*/
+		padding-left:1em;
+		border-left:1px solid #E1E1E1;
 	}
 	/* Navigation Labels */
 	div.uniformTabs h5,
