@@ -88,11 +88,11 @@ h1,h2,h3,h4,h5,h6 {
  	overflow:hidden;
  	padding-top:.5em;
  	padding-bottom:.17em;
+ 	border-bottom: none;
  	width:auto;
 }
 h1,h2{
  	font-family:'Bitter',Verdana,sans-serif;
- 	border-bottom:1px solid #c4c4c4;
  	margin-bottom:.3em;
  	padding-bottom:.3em;
 }
@@ -109,7 +109,6 @@ h2 .editsection{
 	font-size:67%
 }
 h3,h4,h5,h6{
-	border-bottom:none;
 	font-weight:bold;
 }
 h3 .editsection,h4 .editsection,h5 .editsection,h6 .editsection{
@@ -149,9 +148,6 @@ p{
 p img{
 	margin:0
 }
-li{
-
-}
 
 /* Content */
 div#content {
@@ -161,9 +157,6 @@ div#content {
 	background: white;
 	color: black;
 	direction: ltr;
-	min-height: 25em;
-	/*Overskrives af nyere browsere*/
-	min-height: calc(100% - 15em);
 }
 /* Head */
 #mw-page-base {
@@ -207,7 +200,6 @@ div#mw-head h5 {
 	#p-personal ul {
 		list-style: none;
 		margin: 0;
-		padding-left: 14em;
 	}
 	#p-pdropdown{
 		float:right;
@@ -234,8 +226,6 @@ div#mw-head h5 {
 	div.uniformTabs {
 		float: left;
 		height: 3em;
-	}
-	div.uniformTabs {
 	}
 	/* @noflip */
 	div.uniformTabs ul {
@@ -654,8 +644,7 @@ div#footer {
 	margin-left: 14em;
 	margin-top: 0;
 	padding: 1em 1.5em 0.5em;
-	border-top:1px solid #F0F0F0;
-	background: rgba(255, 255, 255, 0.8);
+	background: #F0F0F0;
 	direction: ltr;
 }
 div#footer ul {
@@ -891,7 +880,7 @@ table.floatright {
 	div.thumbinner {
 		border: 1px solid #F0F0F0;
 		padding: 0 !important;
-		background: none;
+		background: #F0F0F0;
 		font-size: 100%;
 		text-align: center;
 		overflow: hidden;
@@ -937,6 +926,19 @@ table.floatright {
 		margin-top: 0em;
 		margin-bottom: 1em;
 	}
+
+/* Artikel inkl. kategori- og billedbokse*/
+
+/* Artikel-tekst */
+#mw-content-text{
+	min-height: 25em; /* Sørger for tomme sider ser tomme ud og holder kategori-boks i bunden af siden*/
+}
+#mw-content-text p,
+#mw-content-text pre,
+#mw-content-text li,
+#mw-content-text img { 
+	max-width:43em; /* Definerer læsevenlig max-bredde. Mangler sandsynligvis en håndfuld tags.*/
+}
 
 /* Site Notice (includes notices from CentralNotice extension) */
 #siteNotice {
