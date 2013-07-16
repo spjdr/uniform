@@ -259,7 +259,7 @@ div#mw-head h5 {
 	div.uniformTabs li a {
 		display: inline-block;
 		height: 2.5em;
-		padding: 1.25em 1em 0em;
+		padding: 1.25em 1em 0em 1.65em;
 		color: #0645ad; /* Farve: Links til sider der eksisterer */
 		cursor: pointer;
 		font-size: 0.8em;
@@ -927,8 +927,6 @@ table.floatright {
 		margin-bottom: 1em;
 	}
 
-/* Artikel inkl. kategori- og billedbokse*/
-
 /* Artikel-tekst */
 #mw-content-text{
 	min-height: 25em; /* Sørger for tomme sider ser tomme ud og holder kategori-boks i bunden af siden*/
@@ -1025,8 +1023,7 @@ div#content .printfooter {
 #pt-anonuserpage,
 #pt-login {
 	/* @embed */
-	background: url(icons/user.png) .6em center no-repeat;
-	padding-left: 1.2em !important;
+	background: url(icons/user.png) left center no-repeat;
 	text-transform: none;
 }
 
@@ -1039,15 +1036,13 @@ div#content .printfooter {
 }
 
 #bodyContent {
+	line-height: 1.5em;
+	text-align:left;
 	position: relative;
 	width: 100%;
 }
 #mw-js-message {
 	font-size: 0.8em;
-}
-div#bodyContent {
-	line-height: 1.5em;
-	text-align:left;
 }
 
 /* Watch/Unwatch Icon Styling */
