@@ -96,13 +96,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1,h2{
  	font-family:'Bitter',Verdana,sans-serif;
- 	margin-bottom:.3em;
- 	padding-bottom:.3em;
+ 	margin-bottom:.7em;
+ 	padding-bottom:.6em;
  	border-bottom: 1px solid #888;
 }
 h1{
 	/*font-size:178%;*/
-	font-size:221%;
+	font-size:211%;
 }
 h1 .editsection{
 	/*font-size:53%;*/
@@ -111,6 +111,7 @@ h1 .editsection{
 h2{
 	/*font-size:150%;  Bitter: Der opstår artefakter ved mindre størrelser */
 	font-size:170%; /* Bitter: Der opstår artefakter ved mindre størrelser */
+	margin-top: .7em;
 }
 h2 .editsection{
 	font-size:53%
@@ -279,7 +280,8 @@ div#mw-head h5 {
 	div.uniformTabs li a:hover,
 	div.uniformTabs li a:focus{
 		text-decoration: none;
-		border-bottom:1px solid #0645ad;
+		/*border-bottom:1px solid #0645ad;*/
+		background-color:  #ddee99;;
 	}
 
 	/* IGNORED BY IE6 */
@@ -947,6 +949,9 @@ table.floatright {
 #mw-content-text p,
 #mw-content-text pre,
 #mw-content-text li,
+#mw-content-text dd,
+#mw-content-text dt,
+#mw-content-text table,
 #mw-content-text img { 
 	max-width:43em; /* Definerer læsevenlig max-bredde. Mangler sandsynligvis en håndfuld tags.*/
 }
@@ -960,7 +965,7 @@ table.floatright {
 	margin-top: 0;
 	padding-top: 0;
 	font-size: 1.5em;
-	border-bottom:none;
+	/*border-bottom:none;*/
 }
 div#content a.external,
 div#content a.external[href ^="gopher://"] {
@@ -1036,9 +1041,9 @@ div#content .printfooter {
 #pt-anonuserpage,
 #pt-login {
 	/* @embed */
-	background: url(icons/user.png) .8em center no-repeat;
+	background: url(icons/user.png) left center no-repeat;
 	text-transform: none;
-	padding-left: 2.5em;
+	padding-left: 1.5em;
 }
 
 .redirectText {
