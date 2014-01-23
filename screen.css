@@ -267,7 +267,7 @@ div#mw-head h5 {
 	div.uniformTabs li a {
 		display: inline-block;
 		height: 2.5em;
-		padding: 1.25em 1em 0em 1.65em;
+		padding: 1.25em 1em 0em 1em;
 		color: #0645ad; /* Farve: Links til sider der eksisterer */
 		cursor: pointer;
 		font-size: 0.8em;
@@ -289,7 +289,7 @@ div#mw-head h5 {
 	/* OVERRIDDEN BY COMPLIANT BROWSERS */
 	div.uniformTabs span a  {
 		display: inline-block;
-		padding-right:0.3em;
+		/*padding-right:0.3em;*/
 	}
 	/* IGNORED BY IE6 */
 	/* @noflip */
@@ -305,7 +305,8 @@ div#mw-head h5 {
 	div.uniformTabs li.selected a:visited{
 		color: #333333; /* Farve: Selv-refererende links i artikel-nav */
 		text-decoration: none;
-		border-bottom:1px solid #333333;
+		border-bottom: 1px solid #333333;
+		background-color: #e8e8e8;
 	}
 	div.uniformTabs li.new a,
 	div.uniformTabs li.new a:visited{
@@ -314,7 +315,8 @@ div#mw-head h5 {
 	div.uniformTabs li.new a:hover,
 	div.uniformTabs li.new a:focus{
 		text-decoration: none;
-		border-bottom: 1px solid #a55858;
+		border-bottom: 1px solid #bbcc77;
+		background-color: #ddee99;
 	}
 	/* Variants and Actions */
 	/* @noflip */
@@ -465,43 +467,43 @@ div#mw-head h5 {
 	/* icons! */
 
 	#ca-view span a {
-	   background-position: left center;
+	   background-position: .8em center;
 	   /* @embed */
 	   background-image: url(icons/view.png);
 	   background-repeat: no-repeat;
-	   padding-left: 1.65em;
+	   padding-left: 2.5em;
 	}
 
 	#ca-edit span a {
-	   background-position: left center;
+	   background-position: .8em center;
 	   /* @embed */
 	   background-image:  url(icons/pen.png);
 	   background-repeat: no-repeat;
-	   padding-left: 1.6em;
+	   padding-left: 2.5em;
 	}
 	
 	#ca-history span a {
-	   background-position: left center;
+	   background-position: .8em center;
 	   /* @embed */
 	   background-image: url(icons/history.png);
 	   background-repeat: no-repeat;
-	   padding-left: 1.65em;	
+	   padding-left: 2.5em;	
 	}
 	
 	#ca-talk span a {
-	   background-position: left center;
+	   background-position: .8em center;
 	   /* @embed */
  	   background-image: url(icons/talk.png);
 	   background-repeat: no-repeat;
-	   padding-left: 1.65em;	
+	   padding-left: 2.5em;
 	}
 
 	#ca-nstab-main span a {
-		background-position: left center;
+		background-position: .8em center;
 		/* @embed */
 		background-image: url(icons/nstab-main.png);
 		background-repeat: no-repeat;
-		padding-left: 1.65em;
+		padding-left: 2.5em;
 	}
 	
 	/* Search */
