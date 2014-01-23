@@ -96,9 +96,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1,h2{
  	font-family:'Bitter',Verdana,sans-serif;
- 	margin-bottom:.7em;
- 	padding-bottom:.6em;
- 	border-bottom: 1px solid #888;
+ 	margin-bottom:.6em;
+ 	padding-bottom:.4em;
+ 	border-bottom: 1px solid #aaa;
 }
 h1{
 	/*font-size:178%;*/
@@ -111,7 +111,7 @@ h1 .editsection{
 h2{
 	/*font-size:150%;  Bitter: Der opstår artefakter ved mindre størrelser */
 	font-size:160%; /* Bitter: Der opstår artefakter ved mindre størrelser */
-	margin-top: .7em;
+	margin-top: .6em;
 }
 h2 .editsection{
 	font-size:53%
@@ -963,7 +963,8 @@ table.floatright {
 #firstHeading {
 	padding-top: 0;
 	margin-top: 0;
-	padding-top: 0;
+	padding-bottom: .4em;
+	border-bottom: 2px dotted #aaa;
 	/*font-size: 1.5em;*/
 	/*border-bottom:none;*/
 }
@@ -1041,7 +1042,9 @@ div#content .printfooter {
 #pt-anonuserpage a,
 #pt-login a {
 	/* @embed */
-	background: url(icons/user.png) .8em center no-repeat;
+	background-image: url(icons/user.png);
+	background-position: .8em center;
+	background-repeat: no-repeat;
 	text-transform: none;
 	padding-left: 2.5em;
 }
