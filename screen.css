@@ -102,7 +102,7 @@ h1,h2{
 }
 h1{
 	/*font-size:178%;*/
-	font-size:211%;
+	font-size:201%;
 }
 h1 .editsection{
 	/*font-size:53%;*/
@@ -110,7 +110,7 @@ h1 .editsection{
 }
 h2{
 	/*font-size:150%;  Bitter: Der opstår artefakter ved mindre størrelser */
-	font-size:170%; /* Bitter: Der opstår artefakter ved mindre størrelser */
+	font-size:160%; /* Bitter: Der opstår artefakter ved mindre størrelser */
 	margin-top: .7em;
 }
 h2 .editsection{
@@ -964,7 +964,7 @@ table.floatright {
 	padding-top: 0;
 	margin-top: 0;
 	padding-top: 0;
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
 	/*border-bottom:none;*/
 }
 div#content a.external,
@@ -1037,13 +1037,13 @@ div#content .printfooter {
 	display: none;
 }
 /* Icon for Usernames */
-#pt-userpage,
-#pt-anonuserpage,
-#pt-login {
+#pt-userpage a,
+#pt-anonuserpage a,
+#pt-login a {
 	/* @embed */
-	background: url(icons/user.png) left center no-repeat;
+	background: url(icons/user.png) .8em center no-repeat;
 	text-transform: none;
-	padding-left: 1.5em;
+	padding-left: 2.5em;
 }
 
 .redirectText {
