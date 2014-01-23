@@ -98,18 +98,22 @@ h1,h2{
  	font-family:'Bitter',Verdana,sans-serif;
  	margin-bottom:.3em;
  	padding-bottom:.3em;
+ 	border-bottom: 1px solid #888;
 }
 h1{
-	font-size:178%
+	/*font-size:178%;*/
+	font-size:221%;
 }
 h1 .editsection{
-	font-size:53%
+	/*font-size:53%;*/
+	font-size: 43%;
 }
 h2{
-	font-size:150% /* Bitter: Der opstår artefakter ved mindre størrelser */
+	/*font-size:150%;  Bitter: Der opstår artefakter ved mindre størrelser */
+	font-size:170%; /* Bitter: Der opstår artefakter ved mindre størrelser */
 }
 h2 .editsection{
-	font-size:67%
+	font-size:53%
 }
 h3,h4,h5,h6{
 	font-weight:bold;
@@ -305,8 +309,8 @@ div#mw-head h5 {
 	div.uniformTabs li.selected a:visited{
 		color: #333333; /* Farve: Selv-refererende links i artikel-nav */
 		text-decoration: none;
-		border-bottom: 1px solid #333333;
-		background-color: #e8e8e8;
+		/*border-bottom: 1px solid #333333;*/
+		background-color: #f0f0f0;
 	}
 	div.uniformTabs li.new a,
 	div.uniformTabs li.new a:visited{
@@ -315,8 +319,8 @@ div#mw-head h5 {
 	div.uniformTabs li.new a:hover,
 	div.uniformTabs li.new a:focus{
 		text-decoration: none;
-		border-bottom: 1px solid #bbcc77;
 		background-color: #ddee99;
+		/*border-bottom: 1px solid #bbcc77;*/
 	}
 	/* Variants and Actions */
 	/* @noflip */
@@ -1032,8 +1036,9 @@ div#content .printfooter {
 #pt-anonuserpage,
 #pt-login {
 	/* @embed */
-	background: url(icons/user.png) left center no-repeat;
+	background: url(icons/user.png) .8em center no-repeat;
 	text-transform: none;
+	padding-left: 2.5em;
 }
 
 .redirectText {
