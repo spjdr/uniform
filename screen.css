@@ -830,6 +830,10 @@ div#content {
 #bodyContent {
 	font-size: 85%;
 }
+* #contentSub {
+	margin: 1em 0 1.4em 0;
+}
+
 
 .editsection {
 	float: right;
@@ -951,7 +955,6 @@ table.floatright {
 #mw-content-text li,
 #mw-content-text dd,
 #mw-content-text dt,
-#mw-content-text table,
 #mw-content-text img { 
 	max-width:43em; /* Definerer læsevenlig max-bredde. Mangler sandsynligvis en håndfuld tags.*/
 }
